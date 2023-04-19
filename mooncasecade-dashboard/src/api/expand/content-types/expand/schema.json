@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "expands",
+  "info": {
+    "singularName": "expand",
+    "pluralName": "expands",
+    "displayName": "Expand"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
