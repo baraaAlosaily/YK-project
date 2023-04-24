@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import React from 'react';
-import Logo from '../logo/Logo';
+import Logo from '../../logo/Logo';
 
 const pages = [{
   key:"our-work",
@@ -93,12 +93,12 @@ const service=[
 
 function Footer() {
   return (
-    <footer className='bg-primary_gray font-primary_font font-semibold text-primary_white sm:text-[1.3rem] text-[1rem]'>
-      <section className='flex p-2'>
+    <footer className='bg-primary_gray font-primary_font font-semibold text-primary_white sm:text-[1.3rem] text-[1rem] md:px-28 md:py-12 px-10 py-10'>
+      <section className='flex'>
         <div className=' md:w-2/12 lg:hidden '>
           <Logo height={130} width={130} />
         </div>
-        <div className='flex flex-col pt-3 w-6/12 lg:w-[100%] lg:px-10 '>
+        <div className='flex flex-col pt-3 w-6/12 lg:w-[100%]'>
         <div className='flex justify-between lg:hidden'>
          <div className='flex flex-col gap-2' >
            {
@@ -127,7 +127,7 @@ function Footer() {
            }
           </div>
         </div>
-        <div className='md:flex justify-between py-10'>
+        <div className='md:flex justify-between py-10 lg:pt-24'>
         <div>
         <div className='flex flex-col gap-4'>
           <a className='block underline' href="contact@mooncascade.com">contact@mooncascade.com</a>

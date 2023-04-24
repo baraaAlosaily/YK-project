@@ -1,0 +1,17 @@
+{
+    "en":{
+        "homeLandingBookWithVideoTitle":"Nothing stands in the way of great ideas becoming a reality.",
+        "homeLandingBookWithVideoSubtitle":"Whether you’re looking for an end-to-end solution or a natural extension to your existing in-house setup — we’ve got you covered! Let us know what you need help with and we’ll get back to you within 24 hours.",
+        "homeLandingBookWithVideoButton":"Book a free consultation"
+    },
+    "ar":{
+        "homeLandingBookWithVideoTitle":"لا يوجد شيء يمنع تحقيق أفكارك الرائعة.",
+        "homeLandingBookWithVideoSubtitle":"سواء كنت تبحث عن حلول متكاملة أو تمديد طبيعي لإعدادك الداخلي الموجود — لدينا ما تحتاجه! اخبرنا بما تحتاجه وسنعود إليك خلال 24 ساعة.",
+        "homeLandingBookWithVideoButton":"احجز استشارة مجانية"
+    },
+    "da":{
+        "homeLandingBookWithVideoTitle":"Ingenting står i vejen for at store ideer bliver til virkelighed.",
+        "homeLandingBookWithVideoSubtitle":"Uanset om du leder efter en end-to-end-løsning eller en naturlig forlængelse af dit eksisterende in-house-setup — har vi dig dækket! Fortæl os, hvad du har brug for hjælp med, og vi vender tilbage til dig inden for 24 timer.",
+        "homeLandingBookWithVideoButton":"Book en gratis konsultation"
+    }
+}

@@ -1,11 +1,13 @@
 "use client"
 import { Inter } from "next/font/google";
-import Layout from "@/components/layout/Layout";
-import HomeLandingWithVideo from "@/components/home_landing_with_video/HomeLandingWithVideo";
 import { getBrands } from "./api/brands/route";
 import { useEffect, useState } from "react";
-import Brands from "@/components/brands/Brands";
-import Home_landing_what_we_can_do from "@/components/home_landing_what_we_can_do/HomeLandingWhatWeCanDo";
+import Brands from "@/components/Home/brands/Brands";
+import Layout from "@/components/shared/layout/Layout";
+import HomeLandingWithVideo from "@/components/Home/home_landing_with_video/HomeLandingWithVideo";
+import HomeLandingWhatWeCanDo from "@/components/Home/home_landing_what_we_can_do/HomeLandingWhatWeCanDo";
+import HomeLandingBookWithVideo from "@/components/Home/home_landing_book_with_video/HomeLandingBookWithVideo";
+import HomeLandingCertificates from "@/components/Home/home_landing_certificates/HomeLandingCertificates";
 
 export default function Home({}) {
   const [brands, setBrands] = useState<never[]>([])
@@ -21,14 +23,11 @@ export default function Home({}) {
   
   return (
     <Layout>
-      {/* {brands.length>0&&brands.map((res:any)=>(
-        <div key={res.id}>
-          <h1>{res.attributes.url}</h1>
-        </div>
-      ))} */}
       <HomeLandingWithVideo/>
       <Brands brands={brands}/>
-      <Home_landing_what_we_can_do/>
+      <HomeLandingWhatWeCanDo/>
+      <HomeLandingCertificates/>
+      <HomeLandingBookWithVideo/>
     </Layout>
   )
 }

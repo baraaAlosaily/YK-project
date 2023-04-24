@@ -1,5 +1,5 @@
 import React from 'react';
-import Expand from '../Expand/Expand';
+import Expand from '../../shared/Expand/Expand';
 import { getExpandedData } from '@/app/api/expand/route';
 import Image from 'next/image';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';

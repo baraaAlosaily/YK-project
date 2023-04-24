@@ -1,5 +1,5 @@
+import Layout from '@/components/shared/layout/Layout'
 import React from 'react'
-import Layout from '@/components/layout/Layout'
 
 function page() {
   return (

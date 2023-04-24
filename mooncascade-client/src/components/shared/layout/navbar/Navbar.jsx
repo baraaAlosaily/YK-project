@@ -11,8 +11,8 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import Image from "next/image";
-import BookingButton from "../buttons/BookingButton";
-import Logo from "../logo/Logo";
+import BookingButton from "../../buttons/BookingButton";
+import Logo from "../../logo/Logo";
 
 
 const pages = [{
@@ -65,7 +65,7 @@ function Navbar() {
   React.useEffect(() => {
     const handleScroll = () => {
       const position = window.pageYOffset;
-      if (position > 100) {
+      if (position > 700) {
         setShowNav(false);
       } else {
         setShowNav(true);

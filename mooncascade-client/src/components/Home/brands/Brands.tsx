@@ -5,7 +5,7 @@ interface Props{
 }
 export default function Brands({brands}:Props) {
   return (
-    <section className=" flex flex-col lg:grid lg:grid-cols-3 gap-10 md:px-28 md:py-28 px-10 py-10  font-primary_font text-sm md:text-[1.3rem]">
+    <section className=" flex flex-col lg:grid lg:grid-cols-3 gap-10 md:px-28 md:py-28 px-10 py-10 font-primary_font text-xl md:text-[1.3rem]">
       <div className="lg:col-span-1 ">Clients we&#39;ve worked with</div>
       <div className="lg:col-span-2 flex flex-wrap gap-8 sm:gap-14">
         {
