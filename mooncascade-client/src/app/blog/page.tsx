@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 import Blogs from "@/components/Blogs/blogs/Blogs";
 import Layout from "@/components/shared/layout/Layout";
@@ -27,6 +28,7 @@ const getBlogs = async () => {
 };
 
 function page() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [blogs, setBlogs] = useState([]);
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
@@ -53,7 +55,7 @@ function page() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
   
-  const handlePageChange = (event, page) => {
+  const handlePageChange = (event: any, page: React.SetStateAction<number>) => {
     setCurrentPage(page);
   };
 

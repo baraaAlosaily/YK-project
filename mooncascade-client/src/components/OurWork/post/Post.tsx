@@ -1,7 +1,6 @@
 import React from "react";
 import IPost from "./post.model";
 import Skeleton from "@mui/material/Skeleton";
-import LazyLoad from 'react-lazyload';
 
 
 export default function Post({ post }: IPost) {
