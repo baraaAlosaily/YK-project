@@ -16,8 +16,6 @@ export default async function handler(req:NextApiRequest,res:NextApiResponse){
 
     if(!query) throw new Error('No data found.')
 
-    console.log(query)
-
     const posts=query.results.map((response:any)=>{
         const post: IPost = {
             id: response.id,

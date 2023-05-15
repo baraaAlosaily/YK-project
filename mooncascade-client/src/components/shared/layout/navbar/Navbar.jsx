@@ -11,30 +11,9 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import Image from "next/image";
-import BookingButton from "../../buttons/BookingButton";
 import Logo from "../../logo/Logo";
-
-
-
-const pages = [{
-  key:"our-work",
-  label:"Our Work",
-},{
-  key:"services",
-  label:"Services",
-},
-{
-  key:"about-us",
-  label:"About Us",
-},
-{
-  key:"contact-us",
-  label:"Contact Us",
-},{
-  key:"blog",
-  label:"Blog",
-}];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+import SmallBookingButton from "../../buttons/SmallBookingButton";
+import data from "../../../../content/media.json";
 
 function Navbar({handleOpen}) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -109,7 +88,7 @@ function Navbar({handleOpen}) {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
+              {data.pages.map((page) => (
                 <MenuItem key={page.label} onClick={handleCloseNavMenu}>
                   <a href={`/${page.key}`}>
                    <Typography textAlign="center">{page.label.toLowerCase()}</Typography>
@@ -118,22 +97,23 @@ function Navbar({handleOpen}) {
               ))}
             </Menu>
           </Box>
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-            <Image src="/logo.png" alt="logo" width={200} height={200}/>
-          </Box>
+   
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" },justifyContent:"center"}}>
-            {pages.map((page) => (
-              <a key={page.key} href={`/${page.key}`}>
+            {data.pages.map((page) => (
+              <a key={page.key} href={`/${page.key}`} >
               <Button
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, mx:2 , color: "white", display: "block" ,textTransform: 'none'}}
+                sx={{ borderRadius:0, marginX: "2rem", marginY:"1rem", minWidth:'max-content' , color: "white", display: "block" ,textTransform: 'none',":hover":{borderBottom:"1px solid white"}}}
               >
                 {page.label}
               </Button>
               </a>
             ))}
           </Box>
-          <BookingButton handleOpen={handleOpen}/>
+          <SmallBookingButton handleOpen={handleOpen}/>
+          <Box sx={{ flexGrow: 1, justifyContent:"end" , display: { xs: "flex", md: "none" } }}>
+            <Image src="/logo.png" alt="logo" width={100} height={100}/>
+          </Box>
         </Toolbar>
       </Container>
     </AppBar>
