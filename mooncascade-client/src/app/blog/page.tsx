@@ -3,6 +3,7 @@
 import Blogs from "@/components/Blogs/blogs/Blogs";
 import Layout from "@/components/shared/layout/Layout";
 import TransformModal from "@/components/shared/transformModal/TransformModal";
+import { BASE_URL } from "@/constants/api";
 import { Pagination } from "@mui/material";
 import React, { useEffect, useState } from "react";
 // import { NotionRenderer } from 'react-notion-x';
@@ -22,7 +23,7 @@ import React, { useEffect, useState } from "react";
 // }
 
 const getBlogs = async () => {
-  const res = await fetch("http://localhost:3001/api/blogs");
+  const res = await fetch(BASE_URL+"/blogs");
   const data = await res.json();
   return data;
 };
