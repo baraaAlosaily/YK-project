@@ -1,6 +1,6 @@
 import { Client } from "@notionhq/client";
 import type { NextApiRequest,NextApiResponse} from "next";
-import { IHomeExpand } from "../models/homeExpand.model";
+import { IHomeExpand } from "./models/homeExpand.model";
 
 const notionSecret="secret_ChJ7AghvfoQvxM7sPTaYIATWe7sgsbR2tNXZtglz8Ef";
 const notionDatabaseId="6f82390cc8d441c89cf5238050b605cb";

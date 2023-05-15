@@ -1,6 +1,6 @@
 import { Client } from "@notionhq/client";
 import type { NextApiRequest,NextApiResponse} from "next";
-import IServiceProcess from '../models/serviceProcess.model'
+import IServiceProcess from './models/serviceProcess.model'
 
 
 const notionSecret="secret_ChJ7AghvfoQvxM7sPTaYIATWe7sgsbR2tNXZtglz8Ef";

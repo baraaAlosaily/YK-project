@@ -1,6 +1,6 @@
 import { Client } from "@notionhq/client";
 import type { NextApiRequest,NextApiResponse} from "next";
-import IBrand from "../models/brand.model";
+import IBrand from "./models/brand.model";
 
 const notionSecret="secret_ChJ7AghvfoQvxM7sPTaYIATWe7sgsbR2tNXZtglz8Ef";
 const notionDatabaseId="2aa48320ba1a4aa48433e707d3e79897";

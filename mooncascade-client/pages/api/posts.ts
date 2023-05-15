@@ -1,6 +1,6 @@
 import { Client } from "@notionhq/client";
 import type { NextApiRequest,NextApiResponse} from "next";
-import {IPost} from "../models/posts.model";
+import {IPost} from "./models/posts.model";
 
 const notionSecret="secret_ChJ7AghvfoQvxM7sPTaYIATWe7sgsbR2tNXZtglz8Ef";
 const notionDatabaseId="e121c8ed87f343ee92b0d80767ab6bf4";

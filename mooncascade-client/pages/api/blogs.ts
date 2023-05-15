@@ -1,6 +1,6 @@
 import { Client } from "@notionhq/client";
 import type { NextApiRequest,NextApiResponse} from "next";
-import  IBlog  from "../models/blogs.model";
+import  IBlog  from "./models/blogs.model";
 
 const notionSecret="secret_ChJ7AghvfoQvxM7sPTaYIATWe7sgsbR2tNXZtglz8Ef";
 const notionDatabaseId="3d7e878978f94cceb8f03407248f7acd";
