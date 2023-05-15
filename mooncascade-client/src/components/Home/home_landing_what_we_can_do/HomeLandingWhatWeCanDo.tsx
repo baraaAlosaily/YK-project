@@ -1,30 +1,18 @@
 import React from 'react';
 import Expand from '../../shared/Expand/Expand';
-import { getExpandedData } from '@/app/api/expand/route';
 import Image from 'next/image';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-
-
-
 
 const content={
     title:"What we can do for you",
     description:"Whether going through the first phase of mapping out the MVP or developing a back-end for your core product, our team is ready to support you with expert UX/UI design, software development, and cloud modernization."
 }
 
-export default function HomeLandingWhatWeCanDo() {
-    const [expandedData, setExpandedData] = React.useState<never[]>([])
+interface Props{
+    homeExpands:any[],
+}
 
-    React.useEffect(() => {
-        const fetchExpandedData = async () => {
-            const res= await getExpandedData()
-            console.log(res.data.data)
-            setExpandedData(res.data.data);
-            console.log(expandedData);
-        }
-        fetchExpandedData()
-    }, [])
-
+export default function HomeLandingWhatWeCanDo({homeExpands}: Props) {
   return (
     <section className='flex flex-col items-center justify-center gap-10 md:px-28 md:py-28 px-10 py-10 font-primary_font'>
         <div className='flex flex-col items-center justify-center gap-10'>
@@ -33,7 +21,7 @@ export default function HomeLandingWhatWeCanDo() {
         </div>
         <div className='flex flex-col lg:grid lg:grid-cols-2 gap-5'>
             <div className='flex flex-col justify-between'> 
-                <Expand expandedData={expandedData}/>
+                <Expand expandedData={homeExpands} w={'33%'}/>
                 <a href="" className='flex gap-2 mt-10 lg:my-0'>
                   <span>SEE ALL SERVICES</span>
                   <span className='lg:block hidden'><ArrowForwardIcon/></span> 

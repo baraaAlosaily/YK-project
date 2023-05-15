@@ -1,0 +1,21 @@
+{
+    "description":"We're proudly certified as",
+    "images":[
+        {
+            "name":"aws",
+            "url":"/certificates/amazon-service.png"
+        },
+        {
+            "name":"google",
+            "url":"/certificates/google-cloud.png"
+        },
+        {
+            "name":"transform",
+            "url":"/certificates/work-transformation.png"
+        },
+        {
+            "name":"pangea",
+            "url":"/certificates/pangea.png"
+        }
+    ]
+}

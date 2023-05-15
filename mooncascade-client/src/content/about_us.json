@@ -1,0 +1,108 @@
+{
+    "landingImage": {
+        "happy_image": "/about_us/happy.png",
+        "happy_image_alt": "happy_image"
+    },
+    "sectionOne": {
+        "title": "The story behind Mooncascade",
+        "subTitle": "Where it all began",
+        "description": "Mooncascade was founded in 2009 by four software engineers with a passion for high-quality coding. Despite starting out during the worst economic crisis since the Great Depression, we were confident that we could deliver products that truly would make an impact.<br /> Today, Mooncascade is an award-winning advisory, design, and software development company with a global reach. Our skilled team delivers quality results at every stage of the software product development process, helping clients build innovative solutions that inspire, disrupt, and challenge markets across the world.<br />We don’t just deliver products. We deliver impact."
+    },
+    "sectionTwo": {
+        "title": "Our current stats",
+        "statistics": [
+            {
+                "scale": "Locations",
+                "number": "2+"
+            },
+            {
+                "scale": "Languages",
+                "number": "4+11"
+            },
+            {
+                "scale": "Clients",
+                "number": "250+"
+            }
+        ]
+    },
+    "sectionThree": {
+        "moreInfo": {
+            "title": "And some more about Mooncascade: what matters to us",
+            "moreInfoList": [
+                {
+                    "title": "Transparency",
+                    "img": "/about_us/moreInfo/magnifying.png",
+                    "description": "If there’s one thing we want you to learn about Mooncascade, it’s how highly we value being honest, humble, and fair. We tell it like it is. We act thoughtfully and purposefully, and we’re always there to support our coworkers and customers no matter what problems they face. At Mooncascade, we constantly challenge ourselves and our business partners to aim for the very best results."
+                },
+                {
+                    "title": "Empathy",
+                    "img": "/about_us/moreInfo/smile.png",
+                    "description": "We are kind, generous, and thoughtful, striving for harmony, mutual support, and cooperation. We do our best to prepare in advance and anticipate the needs of others. We see ourselves as part of a team rather than as a collection of individuals, and we certainly go the extra mile for our clients and colleagues."
+                },
+                {
+                    "title": "Curiosity",
+                    "img": "/about_us/moreInfo/book.png",
+                    "description": "Mooncascade team members are open, creative, and agile. We look at the world from different angles, explore new ideas and try new approaches. We walk the paths that others dare not take. No mountain is too high, no challenge too big. We’re constantly exploring."
+                },
+                {
+                    "title": "Craftsmanship",
+                    "img": "/about_us/moreInfo/Craftsmanship.png",
+                    "description": "You should also know about Mooncascade’s respect for excellence and mastering a trade. We pay attention to detail and definitely sweat the small stuff - always aiming to do the best work of our lives and supporting others in doing the same. We take on tasks and responsibilities with drive and presence and we’re always trying to learn new ways to work even better."
+                }
+            ]
+        }
+    },
+    "sectionFive": {
+        "title": "Our Awards",
+        "subTitle": "Mooncascade has been recognized in the following ways",
+        "awards": [
+            {
+                "id": 1,
+                "title": "Gazelle Award",
+                "description": "In 2013, 2014, and 2015, Mooncascade was honored with a prestigious Gazelle award for showing an outstanding ability to maintain rapid and sustainable growth."
+            },
+            {
+                "id": 2,
+                "title": "Young Enterpreneur of the Year",
+                "description": "Mooncascade has been recognized in the following ways"
+            },
+            {
+                "id": 3,
+                "title": "Science and Business Award",
+                "description": "Mooncascade has been recognized in the following ways"
+            },
+            {
+                "id": 4,
+                "title": "Fastest Growing Company Award",
+                "description": "Mooncascade has been recognized in the following ways"
+            },
+            {
+                "id": 5,
+                "title": "Best SME Company",
+                "description": "Mooncascade has been recognized in the following ways"
+            }
+        ]
+    },
+    "sectionSix": {
+        "title": "Mooncascade in the Press",
+        "articles": [
+            {
+                "id": 1,
+                "title": "Die 5 größten Fehler von Fintech-Gründern",
+                "category": "t3n",
+                "img": "/about_us/articles/articleOne.png",
+                "link": "https://t3n.de/news/5-groessten-fehler-fintech-gruender-1260281/"
+            },
+            {
+                "id": 2,
+                "title": "Remote User Testing als Reaktion auf Covid-Krise",
+                "category": "DEV-Insider",
+                "img": "/about_us/articles/articleTwo.png",
+                "link": "https://www.dev-insider.de/remote-user-testing-als-reaktion-auf-covid-19-a-922343/"
+            }
+        ]
+    },
+    "sectionSeven": {
+        "img": "/about_us/bottom/meeting.png"
+    }
+}

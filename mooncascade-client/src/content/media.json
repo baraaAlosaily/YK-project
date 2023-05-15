@@ -1,0 +1,85 @@
+{
+     "pages" : [{
+        "key":"our-work",
+        "label":"Our Work"
+      },{
+        "key":"services",
+        "label":"Services"
+      },
+      {
+        "key":"about-us",
+        "label":"About Us"
+      },
+      {
+        "key":"contact-us",
+        "label":"Contact Us"
+      },{
+        "key":"blog",
+        "label":"Blog"
+      }]
+      ,
+      "socialMedia":[
+        {
+          "key":"facebook",
+          "label":"Facebook",
+          "link":"https://www.facebook.com/mooncascade",
+          "icon":"/socialMedia/icons8-facebook.svg"
+        },
+        {
+          "key":"twitter",
+          "label":"Twitter",
+          "link":"https://twitter.com/mooncascade",
+          "icon":"/socialMedia/icons8-twitter.svg"
+        },
+        {
+          "key":"linkedin",
+          "label":"Linkedin",
+          "link":"https://www.linkedin.com/company/mooncascade/",
+          "icon":"/socialMedia/icons8-linkedin.svg"
+        },
+        {
+          "key":"instagram",
+          "label":"Instagram",
+          "link":"https://www.instagram.com/mooncascade/",
+          "icon":"/socialMedia/icons8-instagram.svg"
+        },
+        {
+          "key":"youtube",
+          "label":"Youtube",
+          "link":"https://www.youtube.com/channel/UCZ1Z1Z1Z1Z1Z1Z1Z1Z1Z1Z1",
+          "icon":"/socialMedia/icons8-youtube.svg"
+        }
+      ]
+      ,
+      "service":[
+        {
+          "key":"amazon",
+          "image":"/certificates/amazon-service.png",
+          "link":"https://www.mooncascade.com/amazon-web-services",
+          "w":104,
+          "h":122
+        },
+        {
+          "key":"google",
+          "image":"/certificates/google-cloud.png",
+          "link":"https://www.mooncascade.com/google-cloud",
+          "w":122,
+          "h":122
+        },
+        {
+          "key":"work-transformation",
+          "image":"/certificates/work-transformation.png",
+          "link":"https://www.mooncascade.com/work-transformation",
+          "w":122,
+          "h":122
+        },
+        {
+          "key":"pangea",
+          "image":"/certificates/pangea.png",
+          "link":"https://www.mooncascade.com/pangea",
+          "w":187,
+          "h":122
+        }
+      
+      ]
+}

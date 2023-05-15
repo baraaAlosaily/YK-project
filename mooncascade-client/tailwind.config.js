@@ -12,8 +12,10 @@ module.exports = {
           primary_sky_blue_hover: '#04a098',
           primary_gray:"#696969",
           secondary_gray:"#808080",
+          final_gray:"#545759",
           basic_white:"#FFFFFF",
-          primary_white:"#F5F5F5"
+          primary_white:"#F5F5F5",
+          secondary_white:"#F5F5F7",
         },
         fontFamily:{
           primary_font: ['Public Sans', 'sans-serif'],

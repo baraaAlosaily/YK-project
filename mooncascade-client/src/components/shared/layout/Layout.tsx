@@ -3,10 +3,16 @@ import Navbar from './navbar/Navbar';
 import { Props } from 'next/script';
 import Footer from './footer/Footer';
 
-export default function Layout({children}:Props) {
+type MyComponentProps = {
+  children: React.ReactNode;
+  handleOpen: () => void;
+};
+
+export default function Layout({ children, handleOpen }: MyComponentProps) {
+  
   return (
     <>
-     <Navbar/>
+     <Navbar handleOpen={handleOpen}/>
      <main>
         {children}
      </main>

@@ -11,7 +11,7 @@ export default function Brands({brands}:Props) {
         {
            brands.length>0&&brands.map((brand:any)=>(
                <a key={brand.id} href="">
-                   <img src={brand.attributes.url} alt={brand.attributes.name} className=" w-[3rem] sm:w-[5rem] object-contain lg:w-[9rem] xl:w-[11rem] grayscale hover:grayscale-0 hover:transition-all hover:duration-100"/>
+                   <img src={brand.imageUrl} alt={brand.imageUrl} className=" w-[3rem] sm:w-[5rem] object-contain lg:w-[9rem] xl:w-[11rem] grayscale hover:grayscale-0 hover:transition-all hover:duration-100"/>
                </a>
             ))
         }

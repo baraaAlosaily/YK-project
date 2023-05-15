@@ -4,10 +4,11 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import React from 'react'
 
 interface Props{
-    expandedData:any[]
+    expandedData:any[],
+    w:string,
 }
 
-export default function Expand({expandedData}:Props) {
+export default function Expand({expandedData,w}:Props) {
     const [expanded, setExpanded] = React.useState<string | false>(false);
 
     const handleChange =
@@ -24,11 +25,11 @@ export default function Expand({expandedData}:Props) {
                   aria-controls="panel4bh-content"
                   id="panel4bh-header"
                 >
-                  <Typography className='text-[1rem] lg:text-xl font-primary_font' sx={{ width: '33%', flexShrink: 0 }}>{data.attributes.title}</Typography>
+                  <Typography className='text-[1rem]  font-primary_font' sx={{ width: w, flexShrink: 0 }}>{data.title}</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  <Typography className='text-[1rem] lg:text-xl font-primary_font'>
-                    {data.attributes.description}
+                  <Typography className='text-[1rem]  font-primary_font'>
+                    {data.description}
                   </Typography>
                 </AccordionDetails>
               </Accordion>

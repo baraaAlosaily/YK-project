@@ -15,16 +15,13 @@ import BookingButton from "../../buttons/BookingButton";
 import Logo from "../../logo/Logo";
 
 
+
 const pages = [{
   key:"our-work",
   label:"Our Work",
 },{
   key:"services",
   label:"Services",
-},
-{
-  key:"career",
-  label:"Career"
 },
 {
   key:"about-us",
@@ -39,9 +36,7 @@ const pages = [{
 }];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
-function Navbar() {
-
-  
+function Navbar({handleOpen}) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -65,7 +60,8 @@ function Navbar() {
   React.useEffect(() => {
     const handleScroll = () => {
       const position = window.pageYOffset;
-      if (position > 700) {
+      // console.log(document.documentElement.scrollTop)
+      if (position >= 700) {
         setShowNav(false);
       } else {
         setShowNav(true);
@@ -77,13 +73,12 @@ function Navbar() {
     };
   }, []);
 
-
   return (
-    <AppBar position="static" className={`bg-primary_gray font-primary_font fixed left-0 right-0 z-50 transition-all duration-500 ${showNav ? 'opacity-100' : 'opacity-0 hidden'}`}>
-      <Container maxWidth="xl" className="bg-primary_gray">
+    <AppBar position="static" sx={{ bgcolor: '#696969' }} className={`bg-primary_gray font-primary_font fixed left-0 right-0 z-50 transition-all duration-500 ${showNav ? 'opacity-100' : 'opacity-0 hidden'}`}>
+      <Container maxWidth="xl" >
         <Toolbar disableGutters>
           <Box sx={{ display: { xs: "none", md: "flex" } ,cursor:"pointer" }}>
-            <Logo height={160} width={160}/>
+            <Logo data-aos="fade-up" height={40} width={160}/>
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -117,7 +112,7 @@ function Navbar() {
               {pages.map((page) => (
                 <MenuItem key={page.label} onClick={handleCloseNavMenu}>
                   <a href={`/${page.key}`}>
-                   <Typography textAlign="center">{page.label}</Typography>
+                   <Typography textAlign="center">{page.label.toLowerCase()}</Typography>
                   </a>
                 </MenuItem>
               ))}
@@ -131,14 +126,14 @@ function Navbar() {
               <a key={page.key} href={`/${page.key}`}>
               <Button
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{ my: 2, mx:2 , color: "white", display: "block" ,textTransform: 'none'}}
               >
                 {page.label}
               </Button>
               </a>
             ))}
           </Box>
-          <BookingButton/>
+          <BookingButton handleOpen={handleOpen}/>
         </Toolbar>
       </Container>
     </AppBar>

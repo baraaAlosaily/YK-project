@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // target: 'server',
   experimental: {
-    appDir: true,
+    appDir: true
+    // noSsg: true
   },
 }
 
