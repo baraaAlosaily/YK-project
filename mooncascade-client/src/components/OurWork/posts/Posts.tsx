@@ -7,7 +7,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
-import { Button } from "@mui/material";
+import { Button, Skeleton } from "@mui/material";
 
 export default function Posts({ posts }: IPosts) {
   const [pages, setPages] = useState(3);
@@ -20,7 +20,7 @@ export default function Posts({ posts }: IPosts) {
   return (
     <div className="md:px-28 md:pb-28 md:pt-2 px-10 pt-24 pb-10 font-primary_font">
       {/* ==========Separator========== */}
-      <div className=" my-5">
+      {/* <div className=" my-5">
       <FormControl sx={{ m: 1, minWidth: 120 }}>
         <Select
           value={age}
@@ -34,13 +34,16 @@ export default function Posts({ posts }: IPosts) {
         <MenuItem value={30}>Thirty</MenuItem>
         </Select>
       </FormControl>
-      </div>
+      </div> */}
     <div className="flex items-center flex-col">
        {/* ==========Separator========== */}
       <div className="md:grid md:grid-cols-2 md:gap-10 lg:grid-cols-3 flex flex-col gap-20">
-        {loadingPost.map((post: any) => (
+        {
+        loadingPost.length>0?loadingPost.map((post: any) => (
             <Post key={post.id} post={post} />
-        ))}
+        )):<Skeleton variant="rectangular" className='w-[100%] lg:h-[100rem] h-[11rem]'/>
+
+        }
       </div>
         {/* ==========Separator========== */}
       <div>

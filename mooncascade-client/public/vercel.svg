@@ -1,1 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 283 64"><path fill="black" d="M141 16c-11 0-19 7-19 18s9 18 20 18c7 0 13-3 16-7l-7-5c-2 3-6 4-9 4-5 0-9-3-10-7h28v-3c0-11-8-18-19-18zm-9 15c1-4 4-7 9-7s8 3 9 7h-18zm117-15c-11 0-19 7-19 18s9 18 20 18c6 0 12-3 16-7l-8-5c-2 3-5 4-8 4-5 0-9-3-11-7h28l1-3c0-11-8-18-19-18zm-10 15c2-4 5-7 10-7s8 3 9 7h-19zm-39 3c0 6 4 10 10 10 4 0 7-2 9-5l8 5c-3 5-9 8-17 8-11 0-19-7-19-18s8-18 19-18c8 0 14 3 17 8l-8 5c-2-3-5-5-9-5-6 0-10 4-10 10zm83-29v46h-9V5h9zM37 0l37 64H0L37 0zm92 5-27 48L74 5h10l18 30 17-30h10zm59 12v10l-3-1c-6 0-10 4-10 10v15h-9V17h9v9c0-5 6-9 13-9z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2702.594" height="687.051" viewBox="0 0 2702.594 687.051">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 410px;
+        font-family: Noka-Medium, Noka;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        font-size: 420px;
+        font-family: OfeliaDisplay-Regular, Ofelia Display;
+        font-weight: 400;
+      }
+
+      .cls-3 {
+        fill: #007fff;
+      }
+
+      .cls-4 {
+        fill: #0abab3;
+        font-family: Noka-Light, Noka;
+        font-weight: 300;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-6 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00fff7"/>
+      <stop offset="1" stop-color="#0abab3"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.419" gradientTransform="translate(0 -0.509) scale(1 2.017)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#54b7b2"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_21" data-name="Group 21" transform="translate(-149.203 -156.475)">
+    <text id="Novus_lab" data-name="Novus lab" class="cls-1" transform="translate(1011.797 659.475)"><tspan x="0" y="0">N</tspan><tspan class="cls-2" y="0">o</tspan><tspan y="0">v</tspan><tspan class="cls-2" y="0">u</tspan><tspan y="0">s</tspan><tspan class="cls-3" y="0"> </tspan><tspan class="cls-4" y="0">lab</tspan></text>
+    <g id="Group_20" data-name="Group 20" transform="translate(42.031 -7.933)">
+      <path id="code-sharp-solid" class="cls-5" d="M150.27,0l-9.622,31.323L9.622,457.156,0,488.479l62.647,19.244L72.269,476.4,203.294,50.568l9.622-31.323Z" transform="translate(554.927 253.148) rotate(45)"/>
+      <path id="code-sharp-solid-2" data-name="code-sharp-solid" class="cls-6" d="M442.211,46.371l23.134,23.134,91.513,91.513-91.513,91.513-23.134,23.134,46.371,46.371L511.716,298.9,626.363,184.255,649.6,161.018l-23.134-23.134L511.819,23.237,488.582,0,442.211,46.371ZM161.018,0,137.884,23.134,23.237,137.782,0,161.018l23.134,23.134L137.781,298.8l23.237,23.237,46.371-46.371-23.134-23.134L92.742,161.018l91.513-91.513,23.134-23.134Z" transform="translate(334.886 164.407) rotate(45)"/>
+    </g>
+  </g>
+</svg>

@@ -3,7 +3,7 @@ import certificate from '../../../content/certificate.json';
 
 export default function HomeLandingCertificates() {
   return (
-    <section className='md:px-28 md:py-28 px-10 py-10 font-primary_font text-xl md:text-[1.3rem] flex gap-10 lg:justify-between flex-col sm:flex-row'>
+    <section data-aos="fade-up" className='md:px-28 md:py-28 px-10 py-10 font-primary_font text-xl md:text-[1.3rem] flex gap-10 lg:justify-between flex-col sm:flex-row'>
         <div>
             <p>{certificate.description}</p>
         </div>

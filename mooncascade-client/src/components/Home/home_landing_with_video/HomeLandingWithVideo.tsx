@@ -10,7 +10,7 @@ const fixedText={
 
 export default function HomeLandingWithVideo() {
   return (
-    <section className='flex bg-secondary_gray font-primary_font text-primary_white leading-10'>
+    <section data-aos="fade-up" className='flex bg-secondary_gray font-primary_font text-primary_white leading-10'>
         <div className='lg:w-6/12 flex flex-col items-start justify-center sm:gap-10 px-5 py-10 gap-6 sm:px-20 w-12/12 mt-20'>
             <h1 className='text-2xl lg:text-3xl xl:text-5xl'>{fixedText.mainTitle}</h1>
             <h2 className='text-xl lg:text-2xl xl:text-3xl ' >{fixedText.subTitle}</h2>

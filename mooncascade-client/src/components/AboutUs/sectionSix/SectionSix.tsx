@@ -7,7 +7,7 @@ import RightArrow from '@/components/utils/rightArrow/RightArrow';
 
 export default function SectionSix({data}:ISectionSix) {
   return (
-    <section className='md:px-28 md:py-28 px-10 py-10 font-primary_font flex flex-col gap-10'>
+    <section data-aos="fade-up" className='md:px-28 md:py-28 px-10 py-10 font-primary_font flex flex-col gap-10'>
         <p className='text-final_gray text-lg lg:hidden' >{data.title}</p>
         {
             data.articles.map((ele: any,i: React.Key | null | undefined)=>(

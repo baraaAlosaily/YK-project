@@ -10,7 +10,7 @@ const content={
 
 export default function HomeLandingBookWithVideo() {
   return (
-    <section className='md:grid-cols-2 md:grid flex-col gap-10 md:px-28 md:py-28 px-10 py-10 font-primary_font ' >
+    <section data-aos="fade-up" className='md:grid-cols-2 md:grid flex-col gap-10 md:px-28 md:py-28 px-10 py-10 font-primary_font ' >
         <div className='md:col-span-1'>
             <iframe className='w-[100%]' height={500} src='https://www.youtube.com/embed/watch?v=1kFOR98u1-w&list=TLGGeklxM8aCKTExOTA0MjAyMw&t=7s' allow="autoplay; encrypted-media" allowFullScreen></iframe>
         </div>

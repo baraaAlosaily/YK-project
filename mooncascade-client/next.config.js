@@ -3,8 +3,8 @@ const nextConfig = {
   experimental: {
     appDir: true 
   },
-  env: {
-    BASE_API: 'https://yk-project.vercel.app',
+  images: {
+    domains: ['s3.us-west-2.amazonaws.com'],
   },
 }
 

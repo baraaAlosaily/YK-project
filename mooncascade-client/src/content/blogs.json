@@ -1,0 +1,15 @@
+{
+    "SectionOne":{
+        "title":"Mooncascade blog,where ideas get published.",
+        "content":"Have a project on the horizon?",
+        "button":"Let's talk",
+        "filters":[
+            "All",
+            "Cloud",
+            "Company",
+            "FinTech",
+            "Software Development",
+            "UX/UI Design"
+        ]
+    }
+}

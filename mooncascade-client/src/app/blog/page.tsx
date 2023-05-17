@@ -3,9 +3,12 @@
 import Blogs from "@/components/Blogs/blogs/Blogs";
 import Layout from "@/components/shared/layout/Layout";
 import TransformModal from "@/components/shared/transformModal/TransformModal";
-import { BASE_URL } from "@/constants/api";
 import { Pagination } from "@mui/material";
 import React, { useEffect, useState } from "react";
+import AOSContainer from "@/components/AOS/AOSContainer";
+import "aos/dist/aos.css";
+import data from "@/content/blogs.json";
+import SectionOne from "@/components/Blogs/sectionOne/SectionOne";
 // import { NotionRenderer } from 'react-notion-x';
 // // core styles shared by all of react-notion-x (required)
 // import 'react-notion-x/src/styles.css'
@@ -23,7 +26,7 @@ import React, { useEffect, useState } from "react";
 // }
 
 const getBlogs = async () => {
-  const res = await fetch(BASE_URL+"/blogs");
+  const res = await fetch("api/blogs");
   const data = await res.json();
   return data;
 };
@@ -71,7 +74,9 @@ function page() {
 
 
   return (
+    <AOSContainer>
     <Layout handleOpen={handleOpen}>
+      <SectionOne data={data}/>
       <Blogs data={getPageData()} />
       <div className="md:px-28 px-10 font-primary_font flex justify-center mb-10" >
       <Pagination
@@ -83,6 +88,7 @@ function page() {
       {/* {recordMap&&<NotionRenderer recordMap={recordMap} fullPage={true} darkMode={false} />}        */}
       <TransformModal open={open} handleClose={handleClose} />
     </Layout>
+    </AOSContainer>
   );
 }
 

@@ -2,7 +2,7 @@ import BookingButton from '@/components/shared/buttons/BookingButton'
 import React from 'react'
 import { ISectionThree } from './data.model'
 
-export default function SectionThree({data}:ISectionThree) {
+export default function SectionThree({data,handleOpen}:ISectionThree) {
   return (
     <section className=' bg-secondary_white lg:grid lg:grid-cols-6'>
         <section className='lg:col-span-1'></section>
@@ -16,9 +16,7 @@ export default function SectionThree({data}:ISectionThree) {
             <p className='text-xl'>
                 {data.content}
             </p>
-            <BookingButton handleOpen={function (): void {
-                  throw new Error('Function not implemented.')
-              } }/>
+            <BookingButton handleOpen={handleOpen}/>
         </section>
         </section>
     </section>

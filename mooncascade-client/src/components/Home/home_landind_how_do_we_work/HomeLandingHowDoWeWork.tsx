@@ -8,9 +8,6 @@ export default function HomeLandingHowDoWeWork() {
   return (
     <div>
         <h2>{content.title}</h2>
-        {
-            
-        }
     </div>
   )
 }

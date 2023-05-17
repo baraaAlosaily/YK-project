@@ -9,7 +9,7 @@ interface Props{
 export default function Logo({height,width}:Props) {
   return (
     <a href="/">
-    <Image src="/logo.png" alt="logo" width={width} height={height}/>
+    <Image src="/NavusLogo.svg" alt="logo" width={width} height={height}/>
     </a>
   )
 }

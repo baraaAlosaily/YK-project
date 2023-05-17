@@ -16,5 +16,19 @@
             }
         ]
 
+    },
+    "someClients":"Some of our clients",
+    "sectionThree":{
+        "title":"Nothing stands in the way of great ideas becoming a reality.",
+        "content":"WLet us know what you need help with and we’ll get back to you within 24 hours."
+    },
+    "Processes":{
+        "title":"The Mooncascade Process",
+        "subtitle":"From strategy to design and development",
+        "description":"<p>Agility is key to maintaining our consistent track record within software development, as well as ensuring that we always deliver high-quality products at an efficient pace.</p><p>The Scrum approach is at the heart of our processes, combined with a genuine passion for products and the desire to see our clients win. We&rsquo;re with you every step of the way, building the blocks, making adjustments, and helping you reach your goals.</p>"
+    },
+    "Image":{
+        "imageUrl":"/services/image.png",
+        "imageAlt":"meeting"
     }
 }

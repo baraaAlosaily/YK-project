@@ -3,7 +3,7 @@ import { ISectionOne } from './data.model'
 
 export default function SectionOne({data}:ISectionOne) {
   return (
-    <section className='md:px-28 md:py-28 px-10 py-10 font-primary_font flex flex-col gap-10'>
+    <section data-aos="fade-up" className='md:px-28 md:py-28 px-10 py-10 font-primary_font flex flex-col gap-10'>
        <div className='lg:grid lg:grid-cols-5 gap-4'>
         <p className='lg:col-span-1 hidden lg:block'></p>
         <h1 className='lg:col-span-4 md:text-6xl text-3xl'>{data.title}</h1>

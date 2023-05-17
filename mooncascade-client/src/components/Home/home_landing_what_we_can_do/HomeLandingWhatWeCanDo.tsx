@@ -14,7 +14,7 @@ interface Props{
 
 export default function HomeLandingWhatWeCanDo({homeExpands}: Props) {
   return (
-    <section className='flex flex-col items-center justify-center gap-10 md:px-28 md:py-28 px-10 py-10 font-primary_font'>
+    <section data-aos="fade-up" className='flex flex-col items-center justify-center gap-10 md:px-28 md:py-28 px-10 py-10 font-primary_font'>
         <div className='flex flex-col items-center justify-center gap-10'>
             <h2 className=' text-2xl md:text-4xl lg:text-6xl'>{content.title}</h2>
             <p className='max-w-3xl text-[1rem] lg:text-xl lg:leading-8'>{content.description}</p>

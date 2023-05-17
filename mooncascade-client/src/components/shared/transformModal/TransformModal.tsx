@@ -27,7 +27,7 @@ export default function TransformModal({open,handleClose}: {open:boolean,handleC
     aria-describedby="modal-modal-description"
   >
     <Box sx={style}>
-        <section>
+        <section data-aos="fade-down" >
            <section className=' bg-primary_sky_blue w-[100%] h-[15rem] grid grid-cols-12 p-10 font-primary_font'>
              <div className='flex flex-col gap-10 col-span-11'>
                 <h2 className='text-3xl md:text-6xl'>How can we help?</h2>
