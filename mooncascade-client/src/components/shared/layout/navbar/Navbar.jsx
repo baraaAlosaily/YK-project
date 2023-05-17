@@ -54,7 +54,7 @@ function Navbar({handleOpen}) {
   }, []);
 
   return (
-    <AppBar data-aos="fade-up" position="static" sx={{ bgcolor: '#696969' }} className={`bg-primary_black font-primary_font fixed left-0 right-0 z-50 transition-all duration-500 ${showNav ? 'opacity-100' : 'opacity-0 hidden'}`}>
+    <AppBar data-aos="fade-up" position="static" sx={{ bgcolor: '#1F5757' }} className={`bg-primary_black font-primary_font fixed left-0 right-0 z-50 transition-all duration-500 ${showNav ? 'opacity-100' : 'opacity-0 hidden'}`}>
       <Container maxWidth="xl" >
         <Toolbar disableGutters>
           <Box sx={{ display: { xs: "none", md: "flex" } ,cursor:"pointer" }}>
