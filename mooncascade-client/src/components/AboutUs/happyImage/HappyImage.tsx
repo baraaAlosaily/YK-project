@@ -12,9 +12,8 @@ export default function HappyImage({image,alter}:Props) {
         <Image
             src={image}
             alt={alter}
-            width={1000}
-            height={500}
-            style={{width:'100%'}}
+            width={0}
+            height={0}
             className='w-[100%] sm:pt-16 pt-14'/> 
           {/* <img className='w-[100%] sm:pt-16 pt-14'src={image} alt={alter} loading='lazy'/> */}
     </div>

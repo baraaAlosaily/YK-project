@@ -54,11 +54,11 @@ function Navbar({handleOpen}) {
   }, []);
 
   return (
-    <AppBar data-aos="fade-up" position="static" sx={{ bgcolor: '#696969' }} className={`bg-primary_gray font-primary_font fixed left-0 right-0 z-50 transition-all duration-500 ${showNav ? 'opacity-100' : 'opacity-0 hidden'}`}>
+    <AppBar data-aos="fade-up" position="static" sx={{ bgcolor: '#696969' }} className={`bg-primary_black font-primary_font fixed left-0 right-0 z-50 transition-all duration-500 ${showNav ? 'opacity-100' : 'opacity-0 hidden'}`}>
       <Container maxWidth="xl" >
         <Toolbar disableGutters>
           <Box sx={{ display: { xs: "none", md: "flex" } ,cursor:"pointer" }}>
-            <Logo data-aos="fade-up" height={40} width={160}/>
+            <Logo data-aos="fade-up" height={40} width={200}/>
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -113,7 +113,7 @@ function Navbar({handleOpen}) {
           </Box>
           <SmallBookingButton handleOpen={handleOpen}/>
           <Box sx={{ flexGrow: 1, justifyContent:"end" , display: { xs: "flex", md: "none" } }}>
-            <Image src="/logo.png" alt="logo" width={100} height={100}/>
+             <Logo data-aos="fade-up" height={20} width={120}/>
           </Box>
         </Toolbar>
       </Container>
