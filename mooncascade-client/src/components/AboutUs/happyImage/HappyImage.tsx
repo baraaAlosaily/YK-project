@@ -12,9 +12,9 @@ export default function HappyImage({image,alter}:Props) {
         <Image
             src={image}
             alt={alter}
-            width={0}
-            height={0}
-            className='w-[100%] sm:pt-16 pt-14'/> 
+            width={500}
+            height={250}
+            className='w-[100%]'/> 
           {/* <img className='w-[100%] sm:pt-16 pt-14'src={image} alt={alter} loading='lazy'/> */}
     </div>
   )
