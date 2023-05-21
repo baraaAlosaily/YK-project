@@ -5,14 +5,13 @@ import Footer from './footer/Footer';
 
 type MyComponentProps = {
   children: React.ReactNode;
-  handleOpen: () => void;
 };
 
-export default function Layout({ children, handleOpen }: MyComponentProps) {
+export default function Layout({ children }: MyComponentProps) {
   
   return (
     <>
-     <Navbar handleOpen={handleOpen}/>
+     <Navbar/>
      <main>
         {children}
      </main>

@@ -52,17 +52,14 @@ function page() {
   }, []);
 
   return (
-    <AOSContainer>
-      <Layout handleOpen={handleOpen}>
+    <>
         <SectionOne data={data}/>
         <Brands brands={clients} text={data.someClients} />
         <OurServices data={ourServices} />
         <Processes expandedData={processes} data={data}  />
         <SingleImage data={data} />
         <SectionThree data={data.sectionThree} handleOpen={handleOpen} />
-        <TransformModal open={open} handleClose={handleClose} />
-      </Layout>
-    </AOSContainer>
+    </>
   );
 }
 

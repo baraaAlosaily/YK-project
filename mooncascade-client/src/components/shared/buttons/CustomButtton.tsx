@@ -1,5 +1,8 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import classNames from 'classnames';
+import { HandleOpenContext } from "../../../../src/app/layout";
+
+
 
 interface Props{
     content:string;
@@ -8,6 +11,7 @@ interface Props{
 }
 
 export default function CustomButton({content,bg,color}:Props) {
+  const handleOpen = useContext(HandleOpenContext);
     const classes = classNames({ 
         [`bg-${bg}`]: bg,
         [`text-${color}`]: color,
@@ -17,7 +21,7 @@ export default function CustomButton({content,bg,color}:Props) {
         'text-[1rem]':true,
     });
   return (
-    <button className={classes}>
+    <button className={classes} onClick={handleOpen}>
         {content}
     </button>
   )

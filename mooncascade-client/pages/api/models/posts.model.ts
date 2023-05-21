@@ -27,4 +27,5 @@ export interface IPost{
     sector:string[];
     solution:string[];
     smImage:string;
+    link:string;
 }

@@ -8,4 +8,5 @@ interface Post{
     sector:string[];
     solution:string[];
     smImage:string;
+    link:string;
 }

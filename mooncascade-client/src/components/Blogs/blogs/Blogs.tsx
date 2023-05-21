@@ -14,7 +14,7 @@ export default function Blogs({data}:IBlogs) {
                     <Blog key={i} data={item}/>
                 )):(
                     arr.map((item: any,i: React.Key | null | undefined)=>(
-                        <Skeleton key={i} variant="rectangular" className='w-[100%] lg:h-[20rem] h-[20rem]'/>
+                        <Skeleton key={i} variant="rectangular" height="10rem" className='w-[100%] lg:h-[20rem] h-[20rem]'/>
                     ))
                 )
             }

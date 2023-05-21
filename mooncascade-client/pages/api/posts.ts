@@ -23,6 +23,7 @@ export default async function handler(req:NextApiRequest,res:NextApiResponse){
             sector: response.properties.sector.multi_select.map((item: { name: any; }) => item.name),
             solution: response.properties.solution.multi_select.map((item: { name: any; }) => item.name),
             smImage: response.properties.smImage.files[0].file.url,
+            link: response.properties.link.rich_text[0]?.plain_text
           };
           return post;
     })

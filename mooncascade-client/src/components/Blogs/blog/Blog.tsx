@@ -9,7 +9,7 @@ export default function Blog({data}: IBlog) {
         </div>
         <div className='flex flex-col md:gap-5'>
             <h2 className='text-2xl'>
-                <a href="">
+                <a href={`blog/${data?.link}`}>
                 {data.title}
                 </a>
             </h2>

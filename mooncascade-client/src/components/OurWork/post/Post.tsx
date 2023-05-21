@@ -9,8 +9,7 @@ export default function Post({ post }: IPost) {
 
   return (
     <div className="flex flex-col gap-5 font-primary_font">
-      {post.client ? (
-        <>
+      <a href={`our-work/${post.link}`}>
           <div className="flex flex-col gap-1 h-[5rem]">
             <p className="text-[1.3rem]">{post.client}</p>
             <div>
@@ -28,10 +27,7 @@ export default function Post({ post }: IPost) {
               alt={post.id}
             />
           </div>
-        </>
-      ) : (
-        <Skeleton variant="rectangular" width={210} height={118} />
-      )}
+        </a>
     </div>
   );
 }

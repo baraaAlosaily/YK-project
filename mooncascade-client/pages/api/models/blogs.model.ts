@@ -6,4 +6,5 @@ export default interface IBlog{
     date:string;
     description:string;
     imageUrl:string;
+    link:string;
 }

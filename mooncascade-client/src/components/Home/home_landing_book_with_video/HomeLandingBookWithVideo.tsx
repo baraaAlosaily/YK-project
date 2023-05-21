@@ -1,14 +1,6 @@
 import CustomButton from '@/components/shared/buttons/CustomButtton';
-import LetsTalkButton from '@/components/shared/buttons/LetsTalkButton'
 import React from 'react';
-
-const content={
-    homeLandingBookWithVideoTitle:"Nothing stands in the way of great ideas becoming a reality.",
-    homeLandingBookWithVideoSubtitle:"Whether you’re looking for an end-to-end solution or a natural extension to your existing in-house setup — we’ve got you covered! Let us know what you need help with and we’ll get back to you within 24 hours.",
-    homeLandingBookWithVideoButton:"Book a Free Consultation"
-}
-
-export default function HomeLandingBookWithVideo() {
+export default function HomeLandingBookWithVideo({content}:any) {
   return (
     <section data-aos="fade-up" className='md:grid-cols-2 md:grid flex-col gap-10 md:px-28 md:py-28 px-10 py-10 font-primary_font ' >
         <div className='md:col-span-1'>

@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 "use client";
-import React from "react";
+import React,{useContext} from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -15,10 +15,12 @@ import Image from "next/image";
 import Logo from "../../logo/Logo";
 import SmallBookingButton from "../../buttons/SmallBookingButton";
 import data from "../../../../content/media.json";
+import { HandleOpenContext } from "../../../../../src/app/layout";
 
-function Navbar({handleOpen}) {
+function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const handleOpen = useContext(HandleOpenContext);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -104,7 +106,7 @@ function Navbar({handleOpen}) {
               <a key={page.key} href={`/${page.key}`} >
               <Button
                 onClick={handleCloseNavMenu}
-                sx={{ borderRadius:0, marginX: "2rem", marginY:"1rem", minWidth:'max-content' , color: "white", display: "block" ,textTransform: 'none',":hover":{borderBottom:"1px solid white"}}}
+                sx={{ borderBottom:"1px solid transparent", borderRadius:0, marginX: "2rem", marginY:"1rem", minWidth:'max-content' , color: "white", display: "block" ,textTransform: 'none',":hover":{borderBottom:"1px solid white"}}}
               >
                 {page.label}
               </Button>
