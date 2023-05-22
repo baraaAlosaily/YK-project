@@ -3,6 +3,7 @@ import Service from "./service/Service";
 import { Skeleton } from "@mui/material";
 
 export default function OurServices({data}:any) {
+  const number = [1, 2, 3, 4, 5, 6, 7, 8];
   return (
     <section
       data-aos="fade-up"
@@ -16,7 +17,11 @@ export default function OurServices({data}:any) {
             {
                 data.length>0?data.map((item:any,index:number)=>(
                     <Service key={index} data={item}/>
-                )):<Skeleton variant="rectangular" className='w-[100%] lg:h-[20rem] h-[11rem]'/>
+                )):(
+                    number.map((item:number,index:number)=>(
+                      <Skeleton key={index} variant="rectangular" className='w-[100%] lg:h-[20rem] h-[11rem] mt-5'/>
+                    ))
+                )
             }
         </div>
       </div>

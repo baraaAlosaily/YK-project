@@ -14,6 +14,7 @@ import HomeLandingBookWithVideo from '@/components/Home/home_landing_book_with_v
 import content from '@/content/belowBannerContent.json';
 import SectionThree from '@/components/OurWork/sectionThree/SectionThree';
 import { Skeleton } from '@mui/material';
+import OtherWorks from '@/components/shared/otherWorks/OtherWorks';
 
 const getRenderedPage = async (id:string) => {
   const res = await fetch(`/api/getPartialPage?queryParam=${id}`);
@@ -39,6 +40,7 @@ export default function Page() {
   return (
     <div className=' pt-16'>
             {recordMap?<NotionRenderer recordMap={recordMap} fullPage={true} darkMode={false} />:<><Skeleton variant="rectangular" width="100%" height="60rem" /> </>}  
+            <OtherWorks/>
             <SectionThree data={content.contentOurWork}/>
     </div>
   )

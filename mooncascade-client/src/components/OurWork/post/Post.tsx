@@ -8,9 +8,9 @@ export default function Post({ post }: IPost) {
   merged = merged.filter((ele, i) => ele != "others");
 
   return (
-    <div className="flex flex-col gap-5 font-primary_font">
+    <div className="flex flex-col gap-10 font-primary_font">
       <a href={`our-work/${post.link}`}>
-          <div className="flex flex-col gap-1 h-[5rem]">
+          <div className="flex flex-col gap-5 h-[5rem]">
             <p className="text-[1.3rem]">{post.client}</p>
             <div>
               {merged.map((ele: any, i: React.Key | null | undefined) => (
@@ -20,7 +20,7 @@ export default function Post({ post }: IPost) {
               ))}
             </div>
           </div>
-          <div className="w-[100%] h-[25rem]">
+          <div className="w-[100%] h-[25rem] mt-10">
             <img
               className="w-[100%] h-[100%] object-cover"
               src={post.smImage}

@@ -3,4 +3,5 @@ export interface IService{
     title:string;
     shortDesc:string;
     services:string[];
+    link:string;
 }

@@ -39,7 +39,7 @@ export default function Posts({ posts }: IPosts) {
        {/* ==========Separator========== */}
       <div className="md:grid md:grid-cols-2 md:gap-10 lg:grid-cols-3 flex flex-col gap-20">
         {
-        loadingPost.length>0?loadingPost.map((post: any) => (
+        posts.length>0?loadingPost.map((post: any) => (
             <Post key={post.id} post={post} />
         )):<Skeleton variant="rectangular" className='w-[100%] lg:h-[100rem] h-[11rem]'/>
 

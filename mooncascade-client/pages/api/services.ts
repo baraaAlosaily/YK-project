@@ -23,6 +23,7 @@ export default async function handler(req:NextApiRequest,res:NextApiResponse){
                 title:result.properties.title.title[0].text.content,
                 shortDesc:result.properties.shortDesc.rich_text[0].text.content,
                 services:result.properties.services.multi_select.map((service:any)=>service.name),
+                link:result.properties.link.rich_text[0]?.plain_text
 
        }
        return service;

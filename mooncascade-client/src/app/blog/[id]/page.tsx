@@ -10,6 +10,7 @@ import 'prismjs/themes/prism-tomorrow.css'
 // used for rendering equations (optional)
 import 'katex/dist/katex.min.css'
 import { usePathname } from 'next/navigation';
+import { Skeleton } from '@mui/material';
 
 const getRenderedPage = async (id:string) => {
   const res = await fetch(`/api/getPartialPage?queryParam=${id}`);
@@ -33,8 +34,8 @@ export default function Page() {
     fetchAll()
   }, [])
   return (
-    <div>
-            {recordMap&&<NotionRenderer recordMap={recordMap} fullPage={true} darkMode={false} />}    
+    <div className='pt-16'>
+            {recordMap?<NotionRenderer recordMap={recordMap} fullPage={true} darkMode={false} />:<><Skeleton variant="rectangular" width="100%" height="60rem" /> </>}    
     </div>
   )
 }

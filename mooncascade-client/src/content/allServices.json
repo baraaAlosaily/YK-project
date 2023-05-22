@@ -1,0 +1,406 @@
+{
+    "backToAllServices": "Back to all services",
+    "footerBar": {
+        "title": "Want to learn more about workshops?",
+        "content": "Let us know what you need help with and we’ll get back to you within 24 hours.",
+        "button": "Contact us"
+    },
+    "allServicesLinks":[
+        {
+            "key":"strategy-workshops",
+            "value":"Strategy Workshops"
+        },
+        {
+            "key":"ux-ui-design",
+            "value":"UX/UI Design"
+        },
+        {
+            "key":"mobile-app-development",
+            "value":"Mobile App Development"
+        },
+        {
+            "key":"web-back-end-development",
+            "value":"Web & Back-end Development"
+        },
+        {
+            "key":"google-workspace",
+            "value":"Google Workspace"
+        },
+        {
+            "key":"cloud-modernization",
+            "value":"Cloud Modernization with GCP"
+        },
+        {
+            "key":"cloud-modernization-aws",
+            "value":"Cloud Modernization with AWS"
+        }
+    ],
+    "allServices":[
+        {
+            "id":"strategy-workshops",
+            "title":"Strategy Workshops",
+            "image":"/all-services/6c88b2cb-mooncascade-ii-288-scaled.jpg",
+            "description":"Whether you want to build an MVP or create a secure FinTech product, our hands-on workshops help you lay the groundwork for turning your great ideas into products that are user- and revenue-driven.",
+            "method":{
+                "key":"The Mooncascade method",
+                "value":"<p> We want to make sure you get the most out of our workshops based on your needs and setup.</p><p>That&rsquo;s why they go the extra mile: before the workshops take place, we do a thorough analysis of your business (including your competitors, users, and features), so we can create a tailor-made experience on the day.</p><p>Want to take it to the next level and benefit even further from Mooncascade&rsquo;s expertise? You can always explore a strategic partnership with us based on the workshop results.</p>"
+            },
+            "expand1":{
+                "title":"How to build strategic products that sell",
+                "subTitle":"Our workshops",
+                "expand":[
+                    {
+                        "id":1,
+                        "title":"FinTech Product Development",
+                        "description":"<p>Learn how to build secure FinTech solutions.</p><p>With our extensive experience in building secure FinTech solutions, this workshop helps you navigate through the various KYC and AML setups and find the best software development solutions for your business</p><p></p>"
+                    },
+                    {
+                        "id":2,
+                        "title":"MVP Development",
+                        "description":"<p>The key to product development is having a solid plan and knowing what mistakes to avoid.</p><p>That&rsquo;s why our extensive 2-day workshop focuses on analyzing your business goals, describing the core features of your product, and prioritizing them based on business value.</p><p>By the end of our workshop, you&rsquo;ll have a realistic business and technical scope in place.</p><p>(Optimal for 6-10 people)</p>"
+                    }
+                ]
+            }, 
+            "expand2":{
+                "title":"What you get out of the workshop",
+                "subTitle":"Our services",
+                "expand":[
+                    {
+                        "id":1,
+                        "title":"Businuss Process Analysis",
+                        "description":"Before we begin working together we want to know as much as possible about you and your background, the industry that you work in, and the current trends in that field. This knowledge helps us ask the right questions at the beginning of the project, which in turn helps us generate better ideas for your business later on."
+                    },
+                    {
+                        "id":2,
+                        "title":"Competitor Analysis",
+                        "description":"These days most (if not all) new products will already have some form of competition on the market. We’ll identify those competitors, analyse their advantages and disadvantages, and find what we can learn from them."
+                    },
+                    {
+                        "id":3,
+                        "title":"User Issue and Requirement Analysis",
+                        "description":"To make sure your product satisfies the needs of end-users, we will identify the challenges they are currently facing. Understanding the user allows our team to deliver effective solutions and an impactful final product that is loved by your customers."
+                    }
+                ]
+            }
+
+        },
+        {
+            "id":"ux-ui-design",
+            "title":"UX/UI Design",
+            "image":"/all-services/c1db6526-mooncascade-ii-146-copy-scaled.jpg",
+            "description":"UX and UI go hand in hand. And when they’re done right, you’ll see it reflected in your user conversion, engagement, and retention across the board.",
+            "method":{
+                "key":"The Mooncascade method",
+                "value":"<p>We build successful products at Mooncascade by ensuring that UX and UI are an integrated part of the design process.</p><p>By finding a continuous balance between user needs and your company goals, we&rsquo;re able to build products people love while maximizing your business value at the same time.</p>"
+            },
+            "expand1":{
+                "title":"What you get out of it",
+                "subTitle":"Our expertise",
+                "expand":[
+                    {
+                        "id":1,
+                        "title":"UX Research",
+                        "description":"<p> Quality UX and UI design starts with knowing what your users need so you can build with intent. We&rsquo;ll help you set research goals, identify discovery questions, and conduct UX research.</p><p>We use a combination of qualitative and quantitative methods to gather the data we need to make user-driven decisions throughout the design and development process.</p>"
+                    },
+                    {
+                        "id":2,
+                        "title":"UX Writing",
+                        "description":"UX writing is crucial in guiding users and helping them complete desired actions in apps, websites, and other software solutions. Our native-English speaking UX writers are responsible for providing all the text the user encounters when navigating an online project, and they work with UX writing principles that are industry-standard."
+                    },
+                    {
+                        "id":3,
+                        "title":"UX Design",
+                        "description":"The next design phase starts with wireframing. Wireframing helps to visualise the product's skeletal framework in a fast way - we make sure we understand all of the functionalities that we want to add to the product and how they connect and point to each other. Wireframing eliminates possible misunderstandings, speeds up the design work and makes it easier to estimate future design and development costs."
+                    }
+                ]
+            },
+            "expand2":{
+                "title":"Working with us means working with a team of industry experts",
+                "subTitle":"Their roles",
+                "expand":[
+                    {
+                        "id":1,
+                        "title":"UX/UI Design Expert",
+                        "description":"Our UX/UI design experts have a strong background in both user experience and user interface design. They excel in understanding the needs of users, creating structure and logic for the users' journey with the product and solutions that delight the users with their effectiveness. Whether designing a website or a native app, they are familiar with a variety of platforms, good at creating aesthetically pleasing visuals and well-structured design systems which are easy to implement by the developers."
+                    },{
+                        "id":2,
+                        "title":"Project Manager",
+                        "description":"The Project Manager will be your main contact person and will ensure that the project runs smoothly according to the previously agreed-upon timeline and standards. They’re there to make sure that everything from research to design, testing, development, and delivery is in sync with your goals at all times."
+                    }
+                ]
+
+            }
+        },
+        {
+            "id":"mobile-app-development",
+            "title":"Mobile App Development",
+            "image":"/all-services/Mobile-App-development-Mooncascade-scaled.jpg",
+            "description":"<p>Ready to make your product mobile, but lack the internal resources or knowledge?</p><p>Whatever technology you&rsquo;re looking for, we&rsquo;ll help you develop a mobile environment that will integrate into your business, engage with customers, generate ROI, and drive long-term business results.</p>",
+            "method":{
+                "key":"The Mooncascade method",
+                "value":"<p>Augment your team with our developers, who have experience building high-performance native Android, iOS, and cross-platform solutions.</p><p>Our expertise allows us to ask all the right questions, set priorities, and offer solutions that fit your existing tech setup.</p>"
+            },
+            "expand1":{
+                "title":"What you get out of it",
+                "subTitle":"Our expertise",
+                "expand":[
+                    {
+                        "id":1,
+                        "title":"nalysis & Strategy",
+                        "description":"It is not only about building an application, but also understanding how a mobile app will integrate into your business. Get strategic advice that will help you create the best mobile solution for your business and help you define (or re-define) your product’s strategy."
+                    },
+                    {
+                        "id":2,
+                        "title":"Native iOS Development",
+                        "description":"If you aim to maximise your iOS app speed, responsiveness, and user experience, it is wise to choose native app development. We specialize in Swift (the native iOS programming language), so you can be sure that your app is interactive, intuitive, and feels like an organic part of any iOS mobile device."
+                    },
+                    {
+                        "id":3,
+                        "title":"Native Android Development",
+                        "description":"A native Android mobile application will offer your users an outstanding user experience, better performance, and allow you to leverage many mobile device features. We specialize in Kotlin (the native Android programming language), so you can be sure that your app will feel like a natural part of your users’ Android phone and its ecosystem."
+                    },
+                    {
+                        "id":4,
+                        "title":"Cross-Platform Solutions",
+                        "description":"Want your app to work on both iOS or Android? We’ve got you covered! We specialize in both React Native and Flutter (cross-platform programming languages), so your app can run from the same codebase on both iOS and Android mobile devices."
+                    }
+                ]
+            },
+            "expand2":{
+                "title":"Working with us means working with a team of industry experts",
+                "subTitle":"Their roles",
+                "expand":[
+                    {
+                        "id":1,
+                        "title":"Project Manager",
+                        "description":"Our Product Manager will work very closely with your internal team and our product team to facilitate the provision of top-notch UX / UI design, project management, and mobile app development services. The Product Manager gathers and prioritises product and customer requirements, defines the product vision, and ensures that the revenue and customer satisfaction goals are met as well as ensures that the product supports your company’s overall strategy and goals."
+                    },
+                    {
+                        "id":2,
+                        "title":"Project Manager",
+                        "description":"The Project Manager ensures that the project runs smoothly and will be delivered according to the previously agreed timelines and standards. The Project Manager will be your main point of contact within Mooncascade’s team. They will run Scrum ceremonies, help plan the scope with the product owner, estimate time and cost, prioritize tasks for the Mooncascade team providing your mobile app development services, and more."
+                    },
+                    {
+                        "id":3,
+                        "title":"Analyst",
+                        "description":"The Analyst’s role is to gather information from all stakeholders in the business, perform detailed requirement analysis, and document processes to ensure that both your and our team are on the same page. The more complex the project management, UX/UI design, or mobile app development services required, the bigger the value of an analyst who can help you with both - business and system analysis."
+                    },
+                    {
+                        "id":4,
+                        "title":"UX Researcher",
+                        "description":"When providing mobile app development services, the UX Researcher’s job is to make sure that the user experience we’re building actually matches the needs of the users. A UX Researcher will analyse consumer behavior and form data-driven ideas replacing guesswork with informed insights that will, later on, be turned into actionable, consumer-centric results. A UX researcher saves resources by making sure that the product is sophisticated from the very start."
+                    },
+                    {
+                        "id":5,
+                        "title": "Service Designer",
+                        "description":"A Service Designer approaches mobile app development services with a focus on the big picture. They will observe customers at various touchpoints throughout the service experience and identify problem areas through key performance indicators. He will then propose changes and improvements to the service experience which enables you to see the big picture as your customers see it and allows you to perfect every single interaction they have with your product and the brand."
+
+                    },
+                    {
+                        "id":6,
+                        "title": "UX Designer",
+                        "description":"The UX Designer’s role is to make sure that the vision for your brand, your business needs, and the insights from the user research is translated into an experience that combines good aesthetics with exceptional UX. The designer will work closely with the rest of the product team to perform mobile app development services that match your business requirements and live up to the highest standards of accessibility and responsiveness."
+                    },
+                    {
+                        "id":7,
+                        "title": "Android/iOS Developer",
+                        "description":"The Android and iOS Developers are responsible for the technical delivery of your application. They will ensure that all aspects of UX/UI design are incorporated into your product and give you insights into the best development practices. Our team reviews each other’s code to ensure the highest quality and what’s more, they will gladly validate your team’s code too."
+
+                    },
+                    {
+                        "id":8,
+                        "title": "QA Engineer",
+                        "description":"The Quality Assurance engineer supports the team for the whole duration of the mobile app development project. The QA engineer will ensure the product released to the customers meets the agreed-upon standards and works well end-to-end. They will also make sure that the software works on popular devices, screen resolutions, and OS versions cover standard security, UI, load, stress, and usability testing phases, as well as ongoing testing during development."
+                    }
+                ]
+            }
+        },
+        {
+            "id":"web-back-end-development",
+            "title":"Web & Back-end Development",
+            "image":"/all-services/Mobile-App-development-Mooncascade-scaled.jpg",
+            "description":"<p>As an expert team of software developers, we know that it is essential to think about product architecture and address challenges such as security and data privacy right from the start of the project. Our team is here to make your web and back-end development lean, scalable, and secure every step of the way.</p><p>We bring deep industry expertise and the latest IT advancements for any OS, browser, or device to the table&mdash;so you know your software solution is the best it can possibly be.</p>",
+            "method":{
+                "key":"The Mooncascade method",
+                "value":"<p>Whether your goal is to launch a working product to market or make a major, revolutionary impact &ndash; we&rsquo;ve got your back.</p><p>You bring the challenges and ideas, we&rsquo;ll build solutions reliable and scalable for any OS, browser, or device, that would also fit the needs and behavior of your users. (And we&rsquo;ll of course provide support for the delivered product afterward!)</p>"
+            },
+            "expand1":{
+                "title":"What you get out of it",
+                "subTitle":"Our expertise",
+                "expand":[
+                    {
+                        "id":1,
+                        "title":"Pre-coding Analysis",
+                        "description":"Before the coding starts our software developers analyse the current situation, so we get a cohesive overview of your infrastructure. Our team also resolves complex integrations between services to ensure that work flows smoothly."
+                    },
+                    {
+                        "id":2,
+                        "title":"Web Application",
+                        "description":"We specialize in both Javascript and TypeScript, so you can be sure that your web application will be up to today’s high standards, no matter the size."
+                    },
+                    {
+                        "id":3,
+                        "title":"Back-end Systems",
+                        "description":"We specialize in Golang, which is the ideal programming language for scalable servers, large software systems, and modern back-end solutions."
+                    },
+                    {
+                        "id":4,
+                        "title":"Cloud-Native Architecture",
+                        "description":"<p> Faster releases, reduced costs, and scalability. These are just some of the major benefits of choosing a cloud-native setup.</p><p>Truly utilizing the cloud means doing more than just running your application on a cloud provider's servers. Our experienced team will help you design and build services powered by cloud-based technologies, so you can revolutionize the software delivery in your business and make efficient use of everything that the cloud has to offer.</p>"
+                    },
+                    {
+                        "id":5,
+                        "title": "Testing & Quality Assurance",
+                        "description":"We thoroughly test the quality and robustness of your product’s front- and back-end to ensure that the product works well end-to-end, the overall user experience meets all accessibility guidelines and produces the best results."
+                    }
+                ]
+            },
+            "expand2":{
+                "title":"Working with us means working with a team of industry experts",
+                "subTitle":"Their roles",
+                "expand":[
+                    {
+                        "id":1,
+                        "title":"Project Manager",
+                        "description":"The Product Manager gathers and prioritises product and customer requirements, defines the product vision, and ensures that the revenue and customer satisfaction goals are met. This is also the person that will ensure that the product supports the company’s overall strategy and goals."
+                    },
+                    {
+                        "id":2,
+                        "title":"Project Manager",
+                        "description":"The Project Manager ensures that the project runs smoothly and will be delivered according to the previously agreed timelines and standards and is your main point of contact while working with Mooncascade. They will run Scrum ceremonies, help plan the scope with the product owner, estimate time and cost as well as prioritize tasks for the Mooncascade team."
+                    },
+                    {
+                        "id":3,
+                        "title":"Front-End Software Developer",
+                        "description":"Front-end developers will make sure that the overall user experience you have envisioned is implemented successfully. Using tools like TypeScript and React these expert software developers will ensure that your users can use your product on any device or browser and that your product meets all accessibility guidelines."
+                    },
+                    {
+                        "id":4,
+                        "title":"UX Researcher",
+                        "description":"When providing mobile app development services, the UX Researcher’s job is to make sure that the user experience we’re building actually matches the needs of the users. A UX Researcher will analyse consumer behavior and form data-driven ideas replacing guesswork with informed insights that will, later on, be turned into actionable, consumer-centric results. A UX researcher saves resources by making sure that the product is sophisticated from the very start."
+                    },
+                    {
+                        "id":5,
+                        "title": "Back-end Software Developer",
+                        "description":"The Analyst’s role is to gather information from all stakeholders in the business, perform detailed requirement analysis, and document processes to ensure that both your and our team are on the same page. The more complex the project management, UX/UI design, or software development. required, the bigger the value of an analyst who can help you with both - business and system analysis."
+                    },
+                    {
+                        "id":6,
+                        "title": "UX Research",
+                        "description":"When providing software development services, the UX Researcher’s job is to make sure that the user experience we’re building actually matches the needs of the users. A UX Researcher will analyse consumer behavior and form data-driven ideas replacing guesswork with informed insights that will, later on, be turned into actionable, consumer-centric results. A UX researcher saves resources by making sure that the product is sophisticated from the very start."
+                    },
+                    {
+                        "id":7,
+                        "title": "Service Designer",
+                        "description":"A Service Designer approaches software development with a focus on the big picture. They will observe customers at various touchpoints throughout the service experience and identify problem areas through key performance indicators. He will then propose changes and improvements to the service experience which enables you to see the big picture as your customers see it and allows you to perfect every single interaction they have with your product and the brand."
+                    },
+                    {
+                        "id":8,
+                        "title": "Designer",
+                        "description":"The Designer’s role is to make sure that the vision for your brand, your business needs, and the insights from the user research is translated into an experience that combines good aesthetics with an outstanding UX. The designer will work closely with the software developers to make sure that the designs match your business requirements and any technical limitations are in place and all our designs are always created with accessibility and responsiveness in mind"
+                    },
+                    {
+                        "id":9,
+                        "title": "Quality Assurance Engineer",
+                        "description":"The Quality Assurance engineer supports the team for the whole duration of the mobile app development project. The QA engineer will ensure the product released to the customers meets the agreed-upon standards and works well end-to-end. They will also make sure that the software works on popular devices, screen resolutions, and OS versions cover standard security, UI, load, stress, and usability testing phases, as well as ongoing testing during development."
+                    }
+
+                ]
+            }
+        },
+        {
+            "id":"google-workspace",
+            "title":"Google Workspace",
+            "image":"/all-services/Mooncascade-office-scaled.jpg",
+            "description":"<p>Ensure efficient collaboration on your own, across teams, and with partners. With Google Workspace, you get a secure, real-time, and intuitive collaboration platform for your business.</p><p>Get access to Gmail, Calendar, Meet, Drive, and Docs for all your employees, store all your files safely in the cloud and enjoy gold-standard security. The benefits are endless!</p>",
+            "method":{
+                "key":"The Mooncascade method",
+                "value":"<p>As an official Google Cloud Platform Partner, we can design and build a secure cloud-based environment for all your services.</p><p>We&rsquo;ll help you set up Google Workspace, customize it to your business needs, and educate in-house stakeholders so your cloud solution is always running smoothly, come rain or shine.</p><p>Learn more about our official partner status and customer success stories from Google Partner Directory.</p><p>Learn more about our official partner status and customer success stories from Google Partner Directory.</p>"
+            },
+            "expand1":{
+                "title":"What we can do for you",
+                "subTitle":"Our expertise",
+                "expand":[
+                    {
+                        "id":1,
+                        "title":"Google Workspace setup",
+                        "description":"We&rsquo;ll help you set up Google Workspace, customize it to your business needs, and educate in-house stakeholders so your cloud solution is always running smoothly, come rain or shine."
+                    },
+                    {
+                        "id":2,
+                        "title":"Google Workspace migration",
+                        "description":"We&rsquo;ll help you migrate your existing data to Google Workspace and make sure that all your employees are up to speed with the new tools and processes."
+                    },
+                    {
+                        "id":3,
+                        "title":"Google Workspace support",
+                        "description":"We&rsquo;ll help you set up Google Workspace, customize it to your business needs, and educate in-house stakeholders so your cloud solution is always running smoothly, come rain or shine."
+                    }
+                ]
+            }
+        },
+        {
+            "id":"cloud-modernization",
+            "title":"Cloud Modernization with GCP",
+            "image":"/all-services/Mooncascade-office-scaled.jpg",
+            "description":"By running your services in the cloud, you’ll be able to spend your time more wisely focusing on your clients and products. Our team of cloud modernization experts help you design, build, and maintain cloud application environments, leveraging the benefits of Google Cloud Platform. GCP offers unparalleled scalability, reliability, and cutting-edge AI capabilities, which will optimise your business for the cloud era and let you focus on your products and clients.",
+            "method":{
+                "key":"The Mooncascade method",
+                "value":"We’re an official Google Cloud Platform partner, which allows us to design and build a smooth and secure cloud-based environment for all your services."
+            },
+            "expand1":{
+                "title":"What we can do for you",
+                "subTitle":"Our expertise",
+                "expand":[
+                    {
+                        "id":1,
+                        "title":"Cloud migration",
+                        "description":"We’ll help you migrate your existing data to Google Cloud Platform and make sure that all your employees are up to speed with the new tools and processes."
+                    },
+                    {
+                        "id":2,
+                        "title":"Cloud infrastructure",
+                        "description":"We’ll help you set up Google Cloud Platform, customize it to your business needs, and educate in-house stakeholders so your cloud solution is always running smoothly, come rain or shine."
+                    },
+                    {
+                        "id":3,
+                        "title":"Cloud support",
+                        "description":"We’ll help you set up Google Cloud Platform, customize it to your business needs, and educate in-house stakeholders so your cloud solution is always running smoothly, come rain or shine."
+                    }
+                ]
+            }
+        },
+        {
+            "id":"cloud-modernization-aws",
+            "title":"Cloud Modernization with AWS",
+            "image":"/all-services/Mooncascade-office-scaled.jpg",
+            "description":"Our team of cloud modernization experts help you design, build, and maintain cloud application environments, leveraging the benefits of Amazon Web Services (AWS). AWS provides the most extensive and flexible cloud computing platform available with robust security and a global network of data centers. Through optimizing your business for the cloud era, you'll be able to focus on your clients and products.",
+            "method":{
+                "key":"The Mooncascade method",
+                "value":"We’re an official Amazon Web Services partner, which allows us to design and build a smooth and secure cloud-based environment for all your services."
+            },
+            "expand1":{
+                "title":"What we can do for you",
+                "subTitle":"Our expertise",
+                "expand":[
+                    {
+                        "id":1,
+                        "title":"Cloud migration",
+                        "description":"We’ll help you migrate your existing data to Amazon Web Services and make sure that all your employees are up to speed with the new tools and processes."
+                    },
+                    {
+                        "id":2,
+                        "title":"Cloud infrastructure",
+                        "description":"We’ll help you set up Amazon Web Services, customize it to your business needs, and educate in-house stakeholders so your cloud solution is always running smoothly, come rain or shine."
+                    },
+                    {
+                        "id":3,
+                        "title":"Cloud support",
+                        "description":"We’ll help you set up Amazon Web Services, customize it to your business needs, and educate in-house stakeholders so your cloud solution is always running smoothly, come rain or shine."
+                    }
+                ]
+            }
+        }
+    ]
+
+}
