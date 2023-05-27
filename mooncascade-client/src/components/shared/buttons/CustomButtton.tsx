@@ -2,8 +2,6 @@ import React,{useContext} from 'react';
 import classNames from 'classnames';
 import { HandleOpenContext } from "../../../../src/app/layout";
 
-
-
 interface Props{
     content:string;
     bg:string;
