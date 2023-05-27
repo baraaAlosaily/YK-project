@@ -15,10 +15,11 @@ import Image from "next/image";
 import Logo from "../../logo/Logo";
 import SmallBookingButton from "../../buttons/SmallBookingButton";
 import data from "../../../../content/media.json";
-import { HandleOpenContext } from "@/app/[locale]/layout";
-
+import { HandleOpenContext } from "@/app/[locale]/app.layput";
+import {useTranslations} from 'next-intl';
 
 function Navbar() {
+  const t = useTranslations('Navbar');
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const handleOpen = useContext(HandleOpenContext);
@@ -95,7 +96,7 @@ function Navbar() {
               {data.pages.map((page) => (
                 <MenuItem key={page.label} onClick={handleCloseNavMenu}>
                   <a href={`/${page.key}`}>
-                   <Typography textAlign="center">{page.label.toLowerCase()}</Typography>
+                   <Typography textAlign="center">{t(`${page.key}`)}</Typography>
                   </a>
                 </MenuItem>
               ))}
@@ -109,7 +110,7 @@ function Navbar() {
                 onClick={handleCloseNavMenu}
                 sx={{ borderBottom:"1px solid transparent", borderRadius:0, marginX: "2rem", marginY:"1rem", minWidth:'max-content' , color: "white", display: "block" ,textTransform: 'none',":hover":{borderBottom:"1px solid white"}}}
               >
-                {page.label}
+                {t(`${page.key}`)}
               </Button>
               </a>
             ))}

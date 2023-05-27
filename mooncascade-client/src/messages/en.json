@@ -1,5 +1,82 @@
 {
-    "Index": {
-      "title": "Hello world!"
+    "BookingButton":{
+        "title":"Book a Free Consultation"
+    },
+    "Navbar":{
+        "our-work":"Our Work",
+        "services":"Services",
+        "about-us":"Services",
+        "contact":"About Us",
+        "blog":"Blogs"
+    },
+    "BrandHomeText":{
+        "title":"Clients we've worked with",
+        "certificateHome":"We're proudly certified as"
+    },
+    "FixedText": {
+        "mainTitle": "Digital excellence from design to development",
+        "subTitle": "We will be by your side every step of the way and guide you through the ever-changing digital landscape.",
+        "question": "Have a project on the horizon?",
+        "button": "Let's talk"
+    },
+    "ExpandHome":{
+        "title":"What we can do for you",
+        "description":"Whether going through the first phase of mapping out the MVP or developing a back-end for your core product, our team is ready to support you with expert UX/UI design, software development, and cloud modernization.",
+        "button":"SEE ALL SERVICES"
+    },
+    "VideoHome":{
+        "title":"Nothing stands in the way of great ideas becoming a reality.",
+        "description":"Whether you’re looking for an end-to-end solution or a natural extension to your existing in-house setup — we’ve got you covered! Let us know what you need help with and we’ll get back to you within 24 hours.",
+        "button":"Book a Free Consultation"
+     }, 
+     "Footer":{
+        "our-work":"Our Work",
+        "services":"Services",
+        "about-us":"Services",
+        "contact":"About Us",
+        "blog":"Blogs",
+        "privacyPolicy":"Privacy Policy",
+        "impressum":"Impressum"
+    },
+    "AboutUs":{
+        "The_story_behind_Mooncascade":"The story behind Mooncascade",
+        "Where_it_all_began":"Where it all began",
+        "Mooncascade_was_founded_in_2009":"Mooncascade_was_founded in 2009 by four software engineers with a passion for high-quality coding. Despite starting out during the worst economic crisis since the Great Depression, we were confident that we could deliver products that truly would make an impact.<br /> Today, Mooncascade is an award-winning advisory, design, and software development company with a global reach. Our skilled team delivers quality results at every stage of the software product development process, helping clients build innovative solutions that inspire, disrupt, and challenge markets across the world.<br />We don’t just deliver products. We deliver impact.",
+
+        "Our_current_stats":"Our current stats",
+        "Locations":"Locations",
+        "Languages":"Languages",
+        "Clients":"Clients",
+
+        "And_some_more_info":"And some more about Mooncascade: what matters to us",
+        "Transparency":"Transparency",
+        "If_there":"If there’s one thing we want you to learn about Mooncascade, it’s how highly we value being honest, humble, and fair. We tell it like it is. We act thoughtfully and purposefully, and we’re always there to support our coworkers and customers no matter what problems they face. At Mooncascade, we constantly challenge ourselves and our business partners to aim for the very best results.",
+        "Empathy":"Empathy",
+        "We_are_kind":"We are kind, generous, and thoughtful, striving for harmony, mutual support, and cooperation. We do our best to prepare in advance and anticipate the needs of others. We see ourselves as part of a team rather than as a collection of individuals, and we certainly go the extra mile for our clients and colleagues.",
+        "Curiosity":"Curiosity",
+        "Mooncascade_team":"Navous Lab  team members are open, creative, and agile. We look at the world from different angles, explore new ideas and try new approaches. We walk the paths that others dare not take. No mountain is too high, no challenge too big. We’re constantly exploring.",
+        "Craftsmanship":"Craftsmanship",
+        "You_should_also":"You should also know about Mooncascade’s respect for excellence and mastering a trade. We pay attention to detail and definitely sweat the small stuff - always aiming to do the best work of our lives and supporting others in doing the same. We take on tasks and responsibilities with drive and presence and we’re always trying to learn new ways to work even better.",
+
+        "Our_Awards":"Our Awards",
+        "Mooncascade_has_been":"Navous Lab has been recognized in the following ways",
+
+        "Gazelle_Award":"Gazelle Award",
+        "In_2013":"In 2013, 2014, and 2015, Mooncascade was honored with a prestigious Gazelle award for showing an outstanding ability to maintain rapid and sustainable growth.",
+
+        "Young_Enterpreneur":"Young Enterpreneur of the Year",
+        "In_2015":"In 2015, our co-founder Indrek Ulst was given the Young Entrepreneur of the Year award for creating jobs and contributing to the economy.",
+
+        "Science_and":"Science and Business Award",
+        "co-founder":"In 2015, our co-founder Priit Salumaa received this recognition from Estonia’s former president Toomas Hendrik Ilves for his outstanding work with the Garage48 Foundation.",
+
+        "Fastest_Growing":"Fastest Growing Company Award",
+        "In_May_2016":"In May 2016, Mooncascade received the German-Baltic Chamber of Commerce Award for outstanding fast growth.",
+
+        "Best_SME":"Best SME Company",
+        "Mooncascade_was_recognized":"Mooncascade was recognized by the City Council of Tartu for our growth in annual revenue, number of employees, net profit, and exports.",
+
+        "Mooncascade_in_the_Press":"Mooncascade in the Press",
+        "READ_ARTICLE":"READ ARTICLE"
     }
-  }
+}

@@ -3,9 +3,10 @@ import Image from 'next/image';
 import React from 'react';
 import Logo from '../../logo/Logo';
 import media from '../../../../content/media.json'
-
+import {useTranslations} from 'next-intl';
 
 function Footer() {
+  const t = useTranslations('Footer');
   return (
     <footer className='bg-primary_gray font-primary_font font-semibold text-primary_white sm:text-[1.3rem] text-[1rem] md:px-28 md:py-12 px-10 py-10'>
       <section className='flex flex-col'>
@@ -17,14 +18,14 @@ function Footer() {
          <div className='flex flex-col gap-2' >
            {
             media.pages.slice(0, Math.ceil(media.pages.length / 2)).map(ele=>(
-              <a key={ele.key} href={`/${ele.key}`}>{ele.label}</a>
+              <a key={ele.key} href={`/${ele.key}`}>{t(`${ele.key}`)}</a>
             ))
            }
           </div>
           <div className='flex flex-col gap-2 md:mr-5'>
           {
             media.pages.slice(Math.ceil(media.pages.length / 2),media.pages.length).map(ele=>(
-              <a key={ele.key} href={`/${ele.key}`}>{ele.label}</a>
+              <a key={ele.key} href={`/${ele.key}`}>{t(`${ele.key}`)}</a>
             ))
            }
           </div>
@@ -36,7 +37,7 @@ function Footer() {
          <div className='flex justify-around w-10/12'>
           {
             media.pages.map(ele=>(
-              <a key={ele.key} href={`/${ele.key}`}>{ele.label}</a>
+              <a key={ele.key} href={`/${ele.key}`}>{t(`${ele.key}`)}</a>
             ))
            }
           </div>
@@ -59,10 +60,10 @@ function Footer() {
         </div>
         <div className='flex justify-between md:flex-col md:justify-end gap-5'>
           <div>
-            <a href="https://www.mooncascade.com/privacy-policy">Privacy Policy</a>
+            <a href="https://www.mooncascade.com/privacy-policy">{t('privacyPolicy')}</a>
           </div>
           <div>
-            <a href="https://www.mooncascade.com/cookie-policy">Impressum</a>
+            <a href="https://www.mooncascade.com/cookie-policy">{t('impressum')}</a>
           </div>
         </div>
         <div className='hidden lg:block'>

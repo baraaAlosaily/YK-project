@@ -1,0 +1,81 @@
+{
+    "BookingButton": {
+        "title": "Buchen Sie eine kostenlose Beratung"
+    },
+    "Navbar": {
+        "our-work": "Unsere Arbeit",
+        "services": "Dienstleistungen",
+        "about-us": "Unsere Dienstleistungen",
+        "contact": "Über uns",
+        "blog": "Blogs"
+    },
+    "BrandHomeText": {
+        "title": "Kunden, mit denen wir gearbeitet haben",
+        "certificateHome":"Wir sind stolz zertifiziert als"
+    },
+    "FixedText": {
+        "mainTitle": "Digitale Exzellenz vom Design zur Entwicklung",
+        "subTitle": "Wir werden bei jedem Schritt an Ihrer Seite sein und Sie durch die sich ständig verändernde digitale Landschaft führen.",
+        "question": "Haben Sie ein Projekt am Horizont?",
+        "button": "Lassen Sie uns sprechen"
+    },
+    "ExpandHome": {
+          "title": "Was wir für Sie tun können",
+          "description": "Egal, ob Sie die erste Phase der MVP-Planung durchlaufen oder ein Backend für Ihr Kernprodukt entwickeln möchten, unser Team steht Ihnen gerne mit Experten für UX/UI-Design, Softwareentwicklung und Cloud-Modernisierung zur Seite.",
+          "button": "ALLE DIENSTLEISTUNGEN ANSEHEN"
+    },
+    "VideoHome": {
+        "title": "Nichts steht großartigen Ideen auf dem Weg zur Realität im Wege.",
+        "description": "Ob Sie nach einer umfassenden Lösung oder einer natürlichen Erweiterung Ihrer bestehenden Inhouse-Infrastruktur suchen - wir haben Sie abgedeckt! Lassen Sie uns wissen, womit Sie Hilfe benötigen, und wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+        "button": "Vereinbaren Sie eine kostenlose Beratung"
+    },
+    "Footer": {
+        "our-work": "Unsere Arbeit",
+        "services": "Dienstleistungen",
+        "about-us": "Unsere Dienstleistungen",
+        "contact": "Über uns",
+        "blog": "Blogs",
+        "privacyPolicy":"Datenschutz-Bestimmungen",
+        "impressum":"Impressum"
+    },
+    "AboutUs": {
+        "The_story_behind_Mooncascade": "Die Geschichte hinter Mooncascade",
+        "Where_it_all_began": "Wo alles begann",
+        "Mooncascade_was_founded_in_2009": "Mooncascade wurde 2009 von vier Softwareingenieuren gegründet, die eine Leidenschaft für hochwertiges Codieren haben. Trotz des Starts während der schlimmsten Wirtschaftskrise seit der Großen Depression waren wir zuversichtlich, dass wir Produkte liefern können, die wirklich einen Einfluss haben würden. Heute ist Mooncascade ein preisgekröntes Beratungs-, Design- und Softwareentwicklungsunternehmen mit globaler Reichweite. Unser erfahrenes Team liefert qualitativ hochwertige Ergebnisse in jeder Phase des Softwareentwicklungsprozesses und hilft Kunden dabei, innovative Lösungen aufzubauen, die Märkte auf der ganzen Welt inspirieren, stören und herausfordern. Wir liefern nicht nur Produkte. Wir liefern Wirkung.",
+        "Our_current_stats": "Unsere aktuellen Statistiken",
+        "Locations": "Standorte",
+        "Languages": "Sprachen",
+        "Clients": "Kunden",
+
+        "And_some_more_info":"Und noch etwas mehr über Mooncascade: was uns wichtig ist",
+        "Transparency":"Transparenz",
+        "If_there":"Wenn es eine Sache gibt, die wir Ihnen über Mooncascade vermitteln möchten, dann ist es, wie sehr wir Ehrlichkeit, Bescheidenheit und Fairness schätzen. Wir sagen, wie es ist. Wir handeln bedacht und zielgerichtet und sind immer für unsere Kollegen und Kunden da, egal mit welchen Problemen sie konfrontiert sind. Bei Mooncascade stellen wir uns und unsere Geschäftspartner ständig vor die Herausforderung, nach den besten Ergebnissen zu streben.",
+        "Empathy":"Empathie",
+        "We_are_kind":"Wir sind freundlich, großzügig und nachdenklich und streben nach Harmonie, gegenseitiger Unterstützung und Zusammenarbeit. Wir tun unser Bestes, um uns im Voraus vorzubereiten und die Bedürfnisse anderer vorauszusehen. Wir sehen uns als Teil eines Teams und nicht als Ansammlung von Individuen, und wir gehen sicherlich die Extrameile für unsere Kunden und Kollegen.",
+        "Curiosity":"Neugier",
+        "Mooncascade_team":"Die Mitglieder des Mooncascade-Teams sind offen, kreativ und agil. Wir betrachten die Welt aus verschiedenen Blickwinkeln, erkunden neue Ideen und probieren neue Ansätze aus. Wir gehen Wege, die andere nicht wagen. Kein Berg ist zu hoch, keine Herausforderung zu groß. Wir sind ständig auf Entdeckungsreise.",
+        "Craftsmanship":"Handwerkskunst",
+        "You_should_also":"Sie sollten auch wissen, dass Mooncascade großen Wert auf Exzellenz und die Beherrschung eines Handwerks legt. Wir achten auf Details und geben uns bei der Arbeit die größte Mühe, um das Beste zu leisten und andere dabei zu unterstützen, dasselbe zu tun. Wir übernehmen Aufgaben und Verantwortung mit Engagement und Präsenz und sind immer bestrebt, neue Wege zu erlernen, um noch besser zu arbeiten.",
+
+        "Our_Awards": "Unsere Auszeichnungen",
+        "Mooncascade_has_been": "Navous Lab wurde auf folgende Weise anerkannt",
+      
+        "Gazelle_Award": "Gazelle-Auszeichnung",
+        "In_2013": "Mooncascade wurde 2013, 2014 und 2015 mit der renommierten Gazelle-Auszeichnung für herausragende Fähigkeiten zur Aufrechterhaltung von schnellem und nachhaltigem Wachstum geehrt.",
+      
+        "Young_Enterpreneur": "Jungunternehmer des Jahres",
+        "In_2015": "Im Jahr 2015 wurde unserem Mitbegründer Indrek Ulst die Auszeichnung als Jungunternehmer des Jahres für die Schaffung von Arbeitsplätzen und seinen Beitrag zur Wirtschaft verliehen.",
+      
+        "Science_and": "Wissenschafts- und Wirtschaftspreis",
+        "co-founder": "Im Jahr 2015 erhielt unser Mitbegründer Priit Salumaa diese Anerkennung vom ehemaligen estnischen Präsidenten Toomas Hendrik Ilves für seine herausragende Arbeit mit der Garage48 Foundation.",
+      
+        "Fastest_Growing": "Auszeichnung für das am schnellsten wachsende Unternehmen",
+        "In_May_2016": "Im Mai 2016 erhielt Mooncascade den Preis der Deutsch-Baltischen Handelskammer für herausragendes schnelles Wachstum.",
+      
+        "Best_SME": "Bestes KMU-Unternehmen",
+        "Mooncascade_was_recognized": "Mooncascade wurde vom Stadtrat von Tartu für unser Wachstum in den jährlichen Einnahmen, der Mitarbeiterzahl, dem Nettogewinn und den Exporten anerkannt.",
+      
+        "Mooncascade_in_the_Press": "Mooncascade in der Presse",
+        "READ_ARTICLE": "ARTIKEL LESEN"
+      }
+}

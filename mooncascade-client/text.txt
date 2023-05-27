@@ -1,0 +1,65 @@
+Product Development
+
+Our core strength at Mooncascade is building secure, reliable, and user-friendly solutions. We’ll help your product shine with our extensive experience and technical know-how. We’ve also got our finger on the pulse when it comes to compliance, so we can confidently guide you through all KYC and AML requirements.
+
+UI/UX Design
+
+Making products people love, buy, and recommend. That’s the dream, isn’t it? Which is why we practice data-driven design with a focus on a profitable conversion funnel. From user research for a product idea, to UX design for an app, to UI design for a website, to user testing for a new feature, our highly skilled professionals will bring years of experience and best industry practices to your project.
+
+Mobile App Development
+
+Ready to make your product mobile, but lack the internal resources or knowledge? Augment your team with our developers, who have experience in building high-performance native Android, iOS, and cross-platform solutions. We’ll ask all the right questions, set priorities, and offer solutions that fit your existing tech setup.
+
+Web and Back-End Development
+
+Stable. Scalable. Secure. That’s what makes for a stellar software solution. Whether your goal is to launch a working product to market or make a major, revolutionary impact – we’ve got your back. You bring the challenges and ideas, we’ll build reliable solutions for any OS, browser, or device. And we’ll of course provide support for the delivered product afterward.
+
+
+Arabic (ar):
+"Product Development": "تطوير المنتجات"
+
+"Our core strength at Mooncascade is building secure, reliable, and user-friendly solutions. We’ll help your product shine with our extensive experience and technical know-how. We’ve also got our finger on the pulse when it comes to compliance, so we can confidently guide you through all KYC and AML requirements.": "قوة تطويرنا الأساسية في Mooncascade هي بناء حلول آمنة وموثوقة وسهلة الاستخدام. سنساعد منتجك على التألق بفضل خبرتنا الواسعة ومعرفتنا التقنية. نحن أيضًا على اطلاع دائم على التزامات الامتثال ، حتى نتمكن من توجيهك بثقة من خلال جميع متطلبات KYC وAML."
+
+"UI/UX Design": "تصميم واجهة المستخدم/تجربة المستخدم"
+
+"Making products people love, buy, and recommend. That’s the dream, isn’t it? Which is why we practice data-driven design with a focus on a profitable conversion funnel. From user research for a product idea, to UX design for an app, to UI design for a website, to user testing for a new feature, our highly skilled professionals will bring years of experience and best industry practices to your project.": "صنع منتجات يحبها الناس ويشترونها ويوصون بها. هذا هو الحلم ، أليس كذلك؟ ولهذا السبب نمارس التصميم القائم على البيانات مع التركيز على نفق التحويل الرابح. من بحث المستخدم لفكرة المنتج ، إلى تصميم تجربة المستخدم لتطبيق ، إلى تصميم واجهة المستخدم لموقع ويب ، إلى اختبار المستخدم لميزة جديدة ، سيقدم محترفون ماهرون من خبرتهم لسنوات وأفضل الممارسات في الصناعة لمشروعك."
+
+"Mobile App Development": "تطوير تطبيقات الهواتف المحمولة"
+
+"Ready to make your product mobile, but lack the internal resources or knowledge? Augment your team with our developers, who have experience in building high-performance native Android, iOS, and cross-platform solutions. We’ll ask all the right questions, set priorities, and offer solutions that fit your existing tech setup.": "هل أنت مستعد لجعل منتجك محمولًا ، ولكن تفتقر إلى الموارد الداخلية أو المعرفة؟ قم بتعزيز فريقك مع مطورينا ، الذين لديهم خبرة في بناء حلول عالية الأداء للهواتف الذكية الأصلية وiOS ومتعددة المنصات. سنطرح جميع الأسئلة الصحيحة ونحدد الأولويات ونقدم حلولًا تتناسب مع بنية التكنولوجيا الحالية الخاصة بك."
+
+"Web and Back-End Development": "تطوير الويب والجزء الخلفي"
+
+"Stable. Scalable. Secure. That’s what makes for a stellar software solution. Whether your goal is to launch a working product to market or make a major, revolutionary impact – we’ve got your back. You bring the challenges and ideas, we’ll build reliable solutions for any OS, browser, or device. And we’ll of course provide support for the delivered product afterward.": "مستقر. قابل للتوسع. آمن. هذا ما يجعل الحل البرمجي ممتازًا. سواء كان هدفك هو إطلاق منتج عملي في السوق أو تحقيق تأثير كبير وثوري - نحن في الخدمة. أنت تأتي بالتحديات والأفكار ، وسنبني حلولًا موثوقة لأي نظام تشغيل أو متصفح أو جهاز. وبالطبع سنقدم الدعم للمنتج المسلم بعد ذلك."
+
+German (de):
+"Product Development": "Produktentwicklung"
+
+"Our core strength at Mooncascade is building secure, reliable, and user-friendly solutions. We’ll help your product shine with our extensive experience and technical know-how. We’ve also got our finger on the pulse when it comes to compliance, so we can confidently guide you through all KYC and AML requirements.": "Unsere Kernstärke bei Mooncascade ist der Aufbau sicherer, zuverlässiger und benutzerfreundlicher Lösungen. Mit unserer umfangreichen Erfahrung und technischem Know-how bringen wir Ihr Produkt zum Strahlen. Wenn es um Compliance geht, haben wir auch den Finger am Puls, damit wir Sie sicher durch alle KYC- und AML-Anforderungen führen können."
+
+"UI/UX Design": "UI/UX-Design"
+
+"Making products people love, buy, and recommend. That’s the dream, isn’t it? Which is why we practice data-driven design with a focus on a profitable conversion funnel. From user research for a product idea, to UX design for an app, to UI design for a website, to user testing for a new feature, our highly skilled professionals will bring years of experience and best industry practices to your project.": "Produkte herstellen, die von Menschen geliebt, gekauft und empfohlen werden. Das ist der Traum, nicht wahr? Deshalb praktizieren wir ein datengetriebenes Design mit Schwerpunkt auf einem profitablen Conversion-Funnel. Von der Benutzerforschung für eine Produktidee über das UX-Design für eine App bis hin zum UI-Design für eine Website und dem Benutzertesten für ein neues Feature bringen unsere hochqualifizierten Fachleute jahrelange Erfahrung und bewährte Branchenpraktiken in Ihr Projekt ein."
+
+"Mobile App Development": "Mobile App-Entwicklung"
+
+"Ready to make your product mobile, but lack the internal resources or 
+knowledge? Augment your team with our developers, who have experience
+ in building high-performance native Android, iOS, and cross-platfo
+ rm solutions. We’ll ask all the right questions, set priorities, and offer
+  solutions that fit your existing tech setup.": "Bereit, Ihr Produkt mobil zu 
+  machen, aber es mangelt an internen Ressourcen oder Wissen? Ergänzen Sie Ihr Team mit unseren Entwicklern, die Erfahrung im Aufbau von leistungsstarken nativen Android-, iOS- und plattformübergreifenden Lösungen haben. Wir stellen alle richtigen Fragen, setzen Prioritäten und bieten Lösungen an, die zu Ihrer bestehenden technischen Infrastruktur passen."
+
+"Web and Back-End Development": "Web- und Back-End-Entwicklung"
+
+"Stable. Scalable. Secure. That’s what makes for a stellar software solution.
+ Whether your goal is to launch a working product to market or make a major, 
+ revolutionary impact – we’ve got your back. You bring the challenges and ideas,
+  we’ll build reliable solutions for any OS, browser, or device. 
+  And we’ll of course provide support for the delivered product afterward.
+  ": "
+  Stabil. Skalierbar. Sicher. Das sind die Merkmale einer herausragenden Softwarelösung. 
+  Egal, ob Ihr Ziel darin besteht, ein funktionierendes Produkt auf den Markt zu bringen oder eine große, 
+  revolutionäre Wirkung zu erzielen - wir unterstützen Sie. Sie bringen die Herausforderungen und Ideen mit,
+   wir werden zuverlässige Lösungen für jedes Betriebssystem, jeden Browser oder jedes Gerät entwickeln.
+    Und selbstverständlich werden wir auch nach der Auslieferung des Produkts Unterstützung bieten."

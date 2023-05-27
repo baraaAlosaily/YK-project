@@ -1,22 +1,17 @@
 import LetsTalkButton from '@/components/shared/buttons/LetsTalkButton'
 import React from 'react'
-
-const fixedText={
-    mainTitle:"Digital excellence from design to development",
-    subTitle:"We will be by your side every step of the way and guide you through the ever-changing digital landscape.",
-    question:"Have a project on the horizon?",
-    button:"Let\'s talk "
-}
+import {useTranslations} from 'next-intl'
 
 export default function HomeLandingWithVideo() {
+  const t = useTranslations('FixedText')
   return (
     <section data-aos="fade-up" className='flex bg-secondary_gray font-primary_font text-primary_white leading-10'>
         <div className='lg:w-6/12 flex flex-col items-start justify-center sm:gap-10 px-5 py-10 gap-6 sm:px-20 w-12/12 mt-20'>
-            <h1 className='text-2xl lg:text-3xl xl:text-5xl'>{fixedText.mainTitle}</h1>
-            <h2 className='text-xl lg:text-2xl xl:text-3xl ' >{fixedText.subTitle}</h2>
+            <h1 className='text-2xl lg:text-3xl xl:text-5xl'>{t('mainTitle')}</h1>
+            <h2 className='text-xl lg:text-2xl xl:text-3xl ' >{t('subTitle')}</h2>
             <div className='flex gap-5 justify-center items-center w-[100%] sm:w-max'>
-                <h3 className='xl:text-xl sm:block hidden'>{fixedText.question}</h3>
-                <LetsTalkButton text={fixedText.button}/>
+                <h3 className='xl:text-xl sm:block hidden'>{t('question')}</h3>
+                <LetsTalkButton text={t('button')}/>
             </div>
         </div>
         <div className='w-6/12 lg:flex hidden'>

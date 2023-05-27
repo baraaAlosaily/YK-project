@@ -1,5 +1,5 @@
+import { HandleOpenContext } from '@/app/[locale]/app.layput';
 import React, { useContext } from 'react'
-import { HandleOpenContext } from "@/app/[locale]/layout";
 interface Props{
     text:string
 }

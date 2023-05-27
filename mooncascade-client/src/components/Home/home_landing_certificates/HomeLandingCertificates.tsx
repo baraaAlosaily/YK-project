@@ -1,11 +1,12 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import certificate from '../../../content/certificate.json';
+import certificate from '@/content/certificate.json';
 
-export default function HomeLandingCertificates() {
+export default function HomeLandingCertificates({data}:any) {
   return (
     <section data-aos="fade-up" className='md:px-28 md:py-28 px-10 py-10 font-primary_font text-xl md:text-[1.3rem] flex gap-10 lg:justify-between flex-col sm:flex-row'>
         <div>
-            <p>{certificate.description}</p>
+            <p>{data}</p>
         </div>
         <div className='grid grid-cols-2 lg:flex lg:justify-between  md:w-[50%] lg:w-[75%]'>
             {certificate.images.map((image)=>{
