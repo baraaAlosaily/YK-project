@@ -6,18 +6,19 @@ import HomeLandingWhatWeCanDo from "@/components/Home/home_landing_what_we_can_d
 import HomeLandingBookWithVideo from "@/components/Home/home_landing_book_with_video/HomeLandingBookWithVideo";
 import HomeLandingCertificates from "@/components/Home/home_landing_certificates/HomeLandingCertificates";
 import "aos/dist/aos.css";
-import data from "../content/media.json"
-import content from '../content/belowBannerContent.json'
+import data from "../../content/media.json"
+import content from '../../content/belowBannerContent.json'
+import { useTranslations } from "next-intl";
 
 
 const getBrands = cache(async () => {
-  const res = await fetch("api/brands");
+  const res = await fetch("/api/brands");
   const data = await res.json();
   return data;
 });
 
 const getHomeExpand = cache(async () => {
-  const res = await fetch("api/homeExpand");
+  const res = await fetch("/api/homeExpand");
   const data = await res.json();
   return data;
 });
@@ -25,6 +26,8 @@ const getHomeExpand = cache(async () => {
 export default function Home() {
   const [brands, setBrands] = useState<never[]>([]);
   const [homeExpands, sethomeExpands] = useState<never[]>([]);
+  const t = useTranslations('Index');
+
 
   useEffect(() => {
     const fetchAll = async () => {
@@ -39,6 +42,9 @@ export default function Home() {
   return (
     <>
         <HomeLandingWithVideo />
+        <div>
+          <h1>{t('title')}</h1>;
+        </div>
         <Brands brands={brands} text={data.barnds} />
         <HomeLandingWhatWeCanDo homeExpands={homeExpands} />
         <HomeLandingCertificates />

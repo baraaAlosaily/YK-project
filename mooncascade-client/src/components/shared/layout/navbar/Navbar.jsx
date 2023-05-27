@@ -15,7 +15,8 @@ import Image from "next/image";
 import Logo from "../../logo/Logo";
 import SmallBookingButton from "../../buttons/SmallBookingButton";
 import data from "../../../../content/media.json";
-import { HandleOpenContext } from "../../../../../src/app/layout";
+import { HandleOpenContext } from "@/app/[locale]/layout";
+
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

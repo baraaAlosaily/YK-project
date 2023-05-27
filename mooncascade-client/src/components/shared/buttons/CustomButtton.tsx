@@ -1,6 +1,6 @@
 import React,{useContext} from 'react';
 import classNames from 'classnames';
-import { HandleOpenContext } from "../../../../src/app/layout";
+import { HandleOpenContext } from "@/app/[locale]/layout";
 
 interface Props{
     content:string;

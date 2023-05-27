@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import data from '../../../content/allServices.json';
+import data from '../../../../content/allServices.json';
 import BackToAllServices from '@/components/Services/backToAllServices/BackToAllServices';
 import ListOfServices from '@/components/Services/listOfServices/ListOfServices';
 import { usePathname } from 'next/navigation';

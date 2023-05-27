@@ -8,7 +8,7 @@ import data from "@/content/blogs.json";
 import SectionOne from "@/components/Blogs/sectionOne/SectionOne";
 
 const getBlogs = async () => {
-  const res = await fetch("api/blogs");
+  const res = await fetch("/api/blogs");
   const data = await res.json();
   return data;
 };

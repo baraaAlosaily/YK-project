@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
 import Box from '@mui/material/Box'
-import { HandleOpenContext } from "../../../../src/app/layout";
+import { HandleOpenContext } from "@/app/[locale]/layout";
 
 export default function BookingButton() {
   const handleOpen = useContext(HandleOpenContext);
