@@ -1,20 +1,22 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import React from 'react'
 import { ISectionSix } from './data.model';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import RightArrow from '@/components/utils/rightArrow/RightArrow';
-
+import {useTranslations} from 'next-intl'
 
 export default function SectionSix({data}:ISectionSix) {
+    const t = useTranslations('AboutUs')
+
   return (
     <section data-aos="fade-up" className='md:px-28 md:py-28 px-10 py-10 font-primary_font flex flex-col gap-10'>
-        <p className='text-final_gray text-lg lg:hidden' >{data.title}</p>
+        <p className='text-final_gray text-lg lg:hidden' >{t(`${data.title}`)}</p>
         {
             data.articles.map((ele: any,i: React.Key | null | undefined)=>(
                 <div key={i} className='flex flex-col md:grid md:grid-cols-3 lg:grid-cols-4 justify-between gap-4 border-b-2 border-gray-200 pb-10'>
                     <div className='hidden lg:block'>
                         {
-                            i==0&&<p className='text-final_gray text-lg' >{data.title}</p>
+                            i==0&&<p className='text-final_gray text-lg' >{t(`${data.title}`)}</p>
                         }
                     </div>
                     <div>
@@ -26,7 +28,7 @@ export default function SectionSix({data}:ISectionSix) {
                     </div>
                     <a href={ele.link} target='_blank'>
                      <div className='flex gap-2 justify-end'>
-                          <p className='text-final_gray text-sm md:text-lg'>{'READ ARTICLE'}</p>
+                          <p className='text-final_gray text-sm md:text-lg'>{t('READ_ARTICLE')}</p>
                           <span><RightArrow width={24} height={24}/></span> 
                      </div>
                     </a>

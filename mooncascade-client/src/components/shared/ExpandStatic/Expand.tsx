@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Accordion,
   AccordionSummary,
@@ -6,8 +7,8 @@ import {
   Skeleton,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import {useTranslations} from 'next-intl';
 
-import React from "react";
 
 interface Props {
   expandedData: any[];
@@ -15,6 +16,7 @@ interface Props {
 }
 
 export default function Expand({ expandedData, w }: Props) {
+  const t = useTranslations('AboutUs');
   const [expanded, setExpanded] = React.useState<string | false>(false);
   const handleChange =
     (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
@@ -34,17 +36,22 @@ export default function Expand({ expandedData, w }: Props) {
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel4bh-content"
               id="panel4bh-header"
-              style={{height:'5rem'}}
+              style={{ height: "5rem" }}
             >
               <Typography
                 className="text-[1rem]  font-primary_font"
                 sx={{ width: w, flexShrink: 0 }}
               >
-                {data.title}
+              {t(`${data.title}`)}
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography className="text-[1rem]  font-primary_font" variant="body1" component="div" dangerouslySetInnerHTML={{ __html: data.description }} />
+              <Typography
+                className="text-[1rem]  font-primary_font"
+                variant="body1"
+                component="div"
+                dangerouslySetInnerHTML={{ __html: t(`${data.description}`) }}
+              />
             </AccordionDetails>
           </Accordion>
         ))

@@ -1,8 +1,8 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import HappyImage from "@/components/AboutUs/happyImage/HappyImage";
-import about_data from "../../content/about_us.json";
+import about_data from "@/content/about_us.json";
 import SectionOne from "@/components/AboutUs/sectionOne/SectionOne";
 import SectionTwo from "@/components/AboutUs/sectionTwo/SectionTwo";
 import SectionThree from "@/components/AboutUs/sectionThree/SectionThree";

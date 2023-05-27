@@ -10,7 +10,6 @@ import 'prismjs/themes/prism-tomorrow.css'
 // used for rendering equations (optional)
 import 'katex/dist/katex.min.css'
 import { usePathname} from 'next/navigation';
-import HomeLandingBookWithVideo from '@/components/Home/home_landing_book_with_video/HomeLandingBookWithVideo';
 import content from '@/content/belowBannerContent.json';
 import SectionThree from '@/components/OurWork/sectionThree/SectionThree';
 import { Skeleton } from '@mui/material';

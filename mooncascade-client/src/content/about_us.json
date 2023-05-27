@@ -4,12 +4,12 @@
         "happy_image_alt": "happy_image"
     },
     "sectionOne": {
-        "title": "The story behind Mooncascade",
-        "subTitle": "Where it all began",
-        "description": "Mooncascade was founded in 2009 by four software engineers with a passion for high-quality coding. Despite starting out during the worst economic crisis since the Great Depression, we were confident that we could deliver products that truly would make an impact.<br /> Today, Mooncascade is an award-winning advisory, design, and software development company with a global reach. Our skilled team delivers quality results at every stage of the software product development process, helping clients build innovative solutions that inspire, disrupt, and challenge markets across the world.<br />We don’t just deliver products. We deliver impact."
+        "title": "The_story_behind_Mooncascade",
+        "subTitle": "Where_it_all_began",
+        "description": "Mooncascade_was_founded_in_2009"
     },
     "sectionTwo": {
-        "title": "Our current stats",
+        "title": "Our_current_stats",
         "statistics": [
             {
                 "scale": "Locations",
@@ -27,64 +27,64 @@
     },
     "sectionThree": {
         "moreInfo": {
-            "title": "And some more about Mooncascade: what matters to us",
+            "title": "And_some_more_info",
             "moreInfoList": [
                 {
                     "title": "Transparency",
                     "img": "/about_us/moreInfo/magnifying.png",
-                    "description": "If there’s one thing we want you to learn about Mooncascade, it’s how highly we value being honest, humble, and fair. We tell it like it is. We act thoughtfully and purposefully, and we’re always there to support our coworkers and customers no matter what problems they face. At Mooncascade, we constantly challenge ourselves and our business partners to aim for the very best results."
+                    "description": "If_there"
                 },
                 {
                     "title": "Empathy",
                     "img": "/about_us/moreInfo/smile.png",
-                    "description": "We are kind, generous, and thoughtful, striving for harmony, mutual support, and cooperation. We do our best to prepare in advance and anticipate the needs of others. We see ourselves as part of a team rather than as a collection of individuals, and we certainly go the extra mile for our clients and colleagues."
+                    "description": "We_are_kind"
                 },
                 {
                     "title": "Curiosity",
                     "img": "/about_us/moreInfo/book.png",
-                    "description": "Mooncascade team members are open, creative, and agile. We look at the world from different angles, explore new ideas and try new approaches. We walk the paths that others dare not take. No mountain is too high, no challenge too big. We’re constantly exploring."
+                    "description": "Mooncascade_team"
                 },
                 {
                     "title": "Craftsmanship",
                     "img": "/about_us/moreInfo/Craftsmanship.png",
-                    "description": "You should also know about Mooncascade’s respect for excellence and mastering a trade. We pay attention to detail and definitely sweat the small stuff - always aiming to do the best work of our lives and supporting others in doing the same. We take on tasks and responsibilities with drive and presence and we’re always trying to learn new ways to work even better."
+                    "description": "You_should_also"
                 }
             ]
         }
     },
     "sectionFive": {
-        "title": "Our Awards",
-        "subTitle": "Mooncascade has been recognized in the following ways",
+        "title": "Our_Awards",
+        "subTitle": "Mooncascade_has_been",
         "awards": [
             {
                 "id": 1,
-                "title": "Gazelle Award",
-                "description": "In 2013, 2014, and 2015, Mooncascade was honored with a prestigious Gazelle award for showing an outstanding ability to maintain rapid and sustainable growth."
+                "title": "Gazelle_Award",
+                "description": "In_2013"
             },
             {
                 "id": 2,
-                "title": "Young Enterpreneur of the Year",
-                "description": "Mooncascade has been recognized in the following ways"
+                "title": "Young_Enterpreneur",
+                "description": "In_2015"
             },
             {
                 "id": 3,
-                "title": "Science and Business Award",
-                "description": "Mooncascade has been recognized in the following ways"
+                "title": "Science_and",
+                "description": "co-founder"
             },
             {
                 "id": 4,
-                "title": "Fastest Growing Company Award",
-                "description": "Mooncascade has been recognized in the following ways"
+                "title": "Fastest_Growing",
+                "description": "In_May_2016"
             },
             {
                 "id": 5,
-                "title": "Best SME Company",
-                "description": "Mooncascade has been recognized in the following ways"
+                "title": "Best_SME",
+                "description": "Mooncascade_was_recognized"
             }
         ]
     },
     "sectionSix": {
-        "title": "Mooncascade in the Press",
+        "title": "Mooncascade_in_the_Press",
         "articles": [
             {
                 "id": 1,

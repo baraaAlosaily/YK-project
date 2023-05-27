@@ -4,7 +4,7 @@ import React, { cache, use, useEffect, useState } from "react";
 import "aos/dist/aos.css";
 import SectionOne from "@/components/Services/sectionOne/SectionOne";
 import Brands from "@/components/Home/brands/Brands";
-import data from '../../content/services.json'
+import data from '../../../content/services.json'
 import SectionThree from "@/components/OurWork/sectionThree/SectionThree";
 import Processes from "@/components/Services/processes/Processes";
 import SingleImage from "@/components/Services/singleImage/SingleImage";
@@ -12,19 +12,19 @@ import OurServices from "@/components/Services/ourServices/OurServices";
 
 
 const getClients = cache(async () => {
-  const res = await fetch("api/someclients");
+  const res = await fetch("/api/someclients");
   const data = await res.json();
   return data;
 });
 
 const getProcesses = cache(async () => {
-  const res = await fetch("api/processes");
+  const res = await fetch("/api/processes");
   const data = await res.json();
   return data;
 });
 
 const getOurSercies = cache(async () => {
-  const res = await fetch("api/services");
+  const res = await fetch("/api/services");
   const data = await res.json();
   return data;
 });

@@ -8,7 +8,7 @@ import Posts from '@/components/OurWork/posts/Posts';
 import "aos/dist/aos.css";
 
 const getPosts=cache(async()=>{
-  const res = await fetch('api/posts');
+  const res = await fetch('/api/posts');
   const data = await res.json();
   return data;
 })
